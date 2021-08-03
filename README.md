@@ -1,2 +1,2 @@
 # WearOS-Toolbox-Translate
-WearOS Toolbox translation contribution warehouse
+WearOS Toolbox translation contribution repository
