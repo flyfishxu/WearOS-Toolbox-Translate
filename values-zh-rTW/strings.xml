@@ -1,4 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WearOS ToolBox</string>
+    <string name="about">"主要功能：
+1. 安裝APK：您可以安裝適合手錶的任何第三方應用程式
+2. 螢幕工具：修改或是檢查手錶的螢幕設定，例如：DPI，解析度
+3. 電池工具：檢查手錶的電池健康程度以及電壓與電池的電量
+4. 應用程式管理：您可以很方便地對手錶裡面的應用程式進行解除安裝、清除資料的動作
+5. 檔案管理：可以管理手錶裡面的資料；上傳檔案到手錶、或是下載檔案到手機
+6. 指令：對手錶執行 Shell 的指令
+
+更多的功能正在開發中...
+
+如果您有任何的問題或是軟體出現異常狀況，可加入我們的QQ群組：713608038 向我們提出，或在 WearBBS 的 WearOS工具箱 版塊內討論，論壇網址：https://wearbbs.cn"</string>
+    <string name="ac_charge">AC 充電</string>
+    <string name="accept">接受</string>
+    <string name="account">帳號</string>
+    <string name="action_exit">退出</string>
+    <string name="advanced_reboot">進階重新啟動</string>
+    <string name="alipay">支付寶</string>
+    <string name="already_saved_qrcode">已經收款碼儲存到“/DCIM/Camera/”資料夾下，現在就打開微信掃描 QRCODE 嗎?</string>
+    <string name="android_version">Android 版本：</string>
+    <string name="answer1_1">1. 進入手錶“設定”-“系統”-“關於”，找到“版本號碼”，狂點版本號碼直到顯示圖片上的訊息</string>
+    <string name="answer1_2">2. 回到設定主頁面並且滑動到最底部，點擊進入“開發者選項”</string>
+    <string name="answer1_3">3. 找到“ADB 偵錯”與“通過 WiFi 偵錯”並且開啟</string>
+    <string name="answer2_1">1. 先連接 WiFi 網路（為了更穩定的連線品質，建議您在 WiFi 連線後關閉藍牙），然後進入手錶“設定”-“網路連線”-“WiFi”，點擊目前連接的 WiFi 名稱</string>
+    <string name="answer2_2">2. 在“IP 位址”下面的就是手錶的 IP 位址</string>
+    <string name="answer2_3">"3. Port 與手錶的系統有關，搭載 WearOS 系統手錶的 Port 通常為“5555”埠，TicWear 系統的 Port 為“7272”埠，其他系統的 Port 以及 WiFi 偵錯開啟方式請自行 Google（Port 為“5555”的手錶可以不必加上 Port 只打 IP 位址）。
+
+備註：
+WearOS 手錶：TicWatch E2/C2/S2/Pro/Pro3；小米手錶；Moto 360 1代/2代 等等
+Ticwear 手錶：Ticwatch 1；Ticwatch 2；Ticwatch S；Ticwatch E
+OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，若要使用工具箱，建議使用 OTG 的方式連線"</string>
+    <string name="apkSize">APK 大小：</string>
+    <string name="apk_is_damaged">APK 已毀損！</string>
+    <string name="app_introduction">應用程式簡介</string>
+    <string name="app_manager">應用程式管理</string>
+    <string name="app_name">WearOS 工具箱</string>
+    <string name="app_store">應用程式商店</string>
+    <string name="app_version">版本：</string>
+    <string name="application_icon">應用程式圖示</string>
+    <string name="application_name">應用程式名稱：</string>
+    <string name="apply">套用</string>
+    <string name="apply_dpi">套用 DPI</string>
+    <string name="apply_failed">套用失敗！</string>
+    <string name="apply_overscan">套用 Overscan</string>
+    <string name="apply_resolution">套用解析度</string>
+    <string name="apply_successfully">套用成功！</string>
+    <string name="are_you_sure">你確定要這樣做嗎?</string>
+    <string name="art_compile">ART 編譯</string>
+    <string name="art_compile_failed">ART 編譯失敗</string>
+    <string name="art_compile_successfully">ART 編譯成功</string>
+    <string name="battery_health">電池健康度：</string>
+    <string name="battery_health_">電池健康度</string>
+    <string name="battery_info">電池訊息</string>
+    <string name="battery_level">電池電量：</string>
+    <string name="battery_power">電池電量</string>
+    <string name="battery_temperature">電池溫度：</string>
+    <string name="battery_type">電池類型：</string>
+    <string name="battery_volt">電池電壓：</string>
+    <string name="battery_volt_">電池電壓</string>
+    <string name="begin">首先連接手錶吧!</string>
+    <string name="brand">品牌：</string>
+    <string name="cancel">取消</string>
+    <string name="change_charge_status">修改充電狀態</string>
+    <string name="change_dpi">修改 DPI：</string>
+    <string name="change_password">修改密碼</string>
+    <string name="change_resolution">解析度修改：</string>
+    <string name="changelog">"WearOS 工具箱 1.2.0 Stable 的更新内容有：
+
+1. 新增了“用戶系統”
+2. 新增了“指令”
+3. \"檔案管理\" 中新增 “上传至音乐至抬腕听歌”
+4. \"螢幕工具\" 中新增 “修改螢幕 Overscan”
+5. “安裝 APK” 中 “选择文件” 可快速选择常用目录
+6. 修复了保存截图和保存收款二维码后图片无法马上在图库中出现的问题
+7. 修复了“文件管理”无法操作含有空格的文件（夹）的问题
+8. 修复了“文件管理”遇到大写后缀名时文件图标无法正常显示的问题
+9. 修复了“文件管理”和“应用管理”中提取文件/APK提取成功仍显示失败的问题
+
+注：1. “应用库” 功能原计划该版本推出，但由于存在技术和版权问题故延迟上线；2. 捐赠版特色功能将会不断增加"</string>
+    <string name="changelog_title">更新日誌</string>
+    <string name="charge_status">充電狀態：</string>
+    <string name="check_update">檢查更新</string>
+    <string name="checking_update">正在檢查更新</string>
+    <string name="choose_apk">選擇 APK 檔案</string>
+    <string name="choose_dir">選擇資料夾</string>
+    <string name="choose_your_apk">選擇你想安裝的 APK 檔案</string>
+    <string name="clean_application_data_failed">應用程式資料清除失敗</string>
+    <string name="clean_data">清除資料</string>
+    <string name="clean_data_successfully">應用程式資料清除成功</string>
+    <string name="common_version">普通版</string>
+    <string name="confirm_change">確認修改</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="confirm_password_not_match">兩次輸入的密碼不相同！</string>
+    <string name="connect">連線</string>
+    <string name="connect_condition">連線狀態：</string>
+    <string name="connect_failed">連線失敗</string>
+    <string name="connect_success">連線成功</string>
+    <string name="connecting">正在連線…</string>
+    <string name="copy">複製</string>
+    <string name="copy_cut_hint">按下貼上按鈕貼上資料(夾)</string>
+    <string name="copy_failed">複製失敗！</string>
+    <string name="copy_successfully">複製成功！</string>
+    <string name="cores">核心：</string>
+    <string name="could_not_find_user">登入失敗！找不到這個使用者！</string>
+    <string name="cpu_info">CPU 訊息</string>
+    <string name="current_dpi">目前 DPI：</string>
+    <string name="current_path">目前路徑：</string>
+    <string name="current_resolution">目前解析度：</string>
+    <string name="current_version">應用程式版本：%1$s</string>
+    <string name="cut">剪下</string>
+    <string name="delete">刪除</string>
+    <string name="delete_failed">刪除失敗！</string>
+    <string name="delete_successfully">刪除成功！</string>
+    <string name="developer">開發人員：</string>
+    <string name="device_status">手錶狀態：</string>
+    <string name="device_summary">手錶資訊</string>
+    <string name="dialog_title_hint">提示</string>
+    <string name="discharge">不在充電</string>
+    <string name="disconnect">斷開連線</string>
+    <string name="disconnect_done">已經將所有手錶斷線</string>
+    <string name="disconnecting">正在斷開連線…</string>
+    <string name="doing">操作中…</string>
+    <string name="donate_a1">到目前為止，我們的團隊成員全部都是沒有任何收入來源的高中生，在這個軟體不走商業化的情況下，開發的動力來源全都來自於興趣。但是一個只靠興趣在支撐的方案是很難維持下去的，我們曾經想過要在 APP 內投放廣告或是變成付費制的應用程式來賺取收入，但是最後為了每一個使用者的體驗，我們否決了這兩個提案。所以為了這個應用程式能不斷的開發下去，並且也是為了保證開發的初心，我們非常需要您的捐贈！</string>
+    <string name="donate_a2">WearOS 工具箱中的 “線上更新” 和以後會新增的“應用程式商店”功能 會非常依賴高速低延遲的伺服器，您的捐贈主要就是用在這裡，在資金充足的情況下我們致力於為您帶來更優質的伺服器以及更流暢的使用體驗</string>
+    <string name="donate_a3">我們有支付寶以及微信兩種捐贈方式。</string>
+    <string name="donate_a4">向我們捐贈6.99元以上即可獲得捐贈版，捐贈時請務必備註您的帳號綁定的電子信箱，收到後我們會在24小時內處理完畢，若超過24小時您的帳號還是沒有變成捐贈版，請聯絡QQ：1901538716</string>
+    <string name="donate_q1">Q1：為什麼我們需要您的捐贈？</string>
+    <string name="donate_q2">Q2：您的捐贈將會被使用在哪裡？</string>
+    <string name="donate_q3">Q3：捐贈方式？</string>
+    <string name="donate_q4">Q4：如何升級到捐贈版？</string>
+    <string name="donate_us">捐贈我們</string>
+    <string name="donated_version">捐贈版</string>
+    <string name="download">下載</string>
+    <string name="download_apk_failed">安裝包下載失敗！</string>
+    <string name="download_dir">下載資料夾</string>
+    <string name="download_file">下載檔案</string>
+    <string name="download_file_failed">檔案下載失敗！</string>
+    <string name="download_file_successfully">檔案下載成功！</string>
+    <string name="downloading_apk">正在下載安裝包...</string>
+    <string name="edit_battery_power">修改電池電量</string>
+    <string name="edit_screen_overscan">修改螢幕 Overscan 值：</string>
+    <string name="email">電子信箱</string>
+    <string name="email_">信箱：%1$s</string>
+    <string name="email_havent_veried">登入失敗！尚未驗證信箱！</string>
+    <string name="email_is_taken">註冊失敗！這個電子信箱已被註冊</string>
+    <string name="empty_address">請輸入手錶位址</string>
+    <string name="enter_correct_dpi">請輸入正確的DPI！</string>
+    <string name="enter_correct_resolution">請輸入正確的解析度！</string>
+    <string name="error">錯誤</string>
+    <string name="exec">執行</string>
+    <string name="extract_apk">提取 APK</string>
+    <string name="failed_to_check_update">"檢查更新失敗！
+%1$s"</string>
+    <string name="file_operations">檔案動作</string>
+    <string name="find_password">找回密碼</string>
+    <string name="first_time_message">"看起來這是您第一次使用“WearOS 工具箱”，在您使用之前，強烈建議您閱讀“使用幫助”。
+
+玩機有風險，搞機須謹慎"</string>
+    <string name="force_stop">強制停止</string>
+    <string name="force_stop_failed">強制停止失敗</string>
+    <string name="force_stop_successfully">強制停止成功</string>
+    <string name="forgot_password">忘記密碼</string>
+    <string name="forgot_password_email_send">一封包含驗證連結的信件已經傳送到您的電子信箱！請注意查收</string>
+    <string name="get_donated_version">升級到進階版</string>
+    <string name="havent_donated">這個功能需要升級到捐贈版方可使用！更多訊息請看“捐贈我們”</string>
+    <string name="healthy">健康</string>
+    <string name="height">高</string>
+    <string name="hello_user">您好！%1$s</string>
+    <string name="home_logo">解析度</string>
+    <string name="hot_app">熱門應用程式</string>
+    <string name="how_to_get_donated_version">如何升級到捐贈版？</string>
+    <string name="initialized_failed">初始化失敗</string>
+    <string name="initialized_successfully">初始化成功！</string>
+    <string name="input_new_battery_power">輸入您想修改的電量</string>
+    <string name="install_apk">安裝 APK</string>
+    <string name="install_failed">安裝失敗！</string>
+    <string name="install_success">安裝成功！</string>
+    <string name="installing">正在安裝...</string>
+    <string name="internal_storage_dir">內部儲存空間</string>
+    <string name="ip_textView_hint">手錶位址（IP:Port）</string>
+    <string name="layout">輸出：</string>
+    <string name="load_adb_failed">ADB 服務載入失敗！</string>
+    <string name="load_adb_success">ADB 服務載入成功</string>
+    <string name="loading">載入中...</string>
+    <string name="loading_adb">正在載入 ADB 服務…</string>
+    <string name="login">登入</string>
+    <string name="login_expired">登入已經失效，請重新登入！</string>
+    <string name="login_register">登入/註冊</string>
+    <string name="login_successfully">登入成功！</string>
+    <string name="logout">登出</string>
+    <string name="logouted">已登出！</string>
+    <string name="menu_about">關於</string>
+    <string name="menu_battery_tool">電池工具</string>
+    <string name="menu_deviceInfo">手錶訊息</string>
+    <string name="menu_file_manager">檔案管理</string>
+    <string name="menu_home">首頁</string>
+    <string name="menu_install_apk">安裝 APK</string>
+    <string name="menu_other_tool">其它工具</string>
+    <string name="menu_screen_tool">螢幕工具</string>
+    <string name="mkdir">新增資料夾</string>
+    <string name="mkdir_failed">新增資料夾失敗！</string>
+    <string name="mkdir_message">輸入資料夾名稱：</string>
+    <string name="mkdir_successuflly">新增資料夾成功！</string>
+    <string name="model">型號：</string>
+    <string name="more_actions">更多操作</string>
+    <string name="move_failed">移動失敗！</string>
+    <string name="move_successfully">移動成功！</string>
+    <string name="nav_header_subtitle">專為 WearOS 手錶打造的搞機軟體</string>
+    <string name="nav_header_title">WearOS 工具箱</string>
+    <string name="negative">拒絕</string>
+    <string name="new_dpi">新的 DPI</string>
+    <string name="new_password">新密碼</string>
+    <string name="new_version_found">找到新版本: %1$s</string>
+    <string name="no_alipay">看起來您還沒有安裝支付寶</string>
+    <string name="no_broswer">看起來您沒有安裝任何瀏覽器</string>
+    <string name="no_device">尚未連線</string>
+    <string name="no_file">這裡啥都沒有</string>
+    <string name="no_storage_permission">請授予儲存權限</string>
+    <string name="no_update_found">已經是最新版本</string>
+    <string name="no_wechat">看起来您還沒有安裝微信</string>
+    <string name="normal">正常</string>
+    <string name="normal_reboot">正常重新啟動</string>
+    <string name="not_login">請登入</string>
+    <string name="offline">離線</string>
+    <string name="ok">確定</string>
+    <string name="old_password">舊密碼</string>
+    <string name="operation">操作</string>
+    <string name="original_dpi">原始 DPI：</string>
+    <string name="original_resolution">原始解析度：</string>
+    <string name="package_name">Package 名稱：</string>
+    <string name="password">密碼</string>
+    <string name="password_changed">密碼已修改！請重新登入！</string>
+    <string name="please_allow_adb_request">請允許 ADB 授權請求</string>
+    <string name="please_connect_device">請先將您的手錶連線！</string>
+    <string name="please_give_storage_permission">請手動授予應用程式儲存權限！</string>
+    <string name="please_input_email">請在“電子信箱”輸入框內輸入您的信箱！</string>
+    <string name="please_input_value">請輸入 Overscan 值！</string>
+    <string name="please_select_file">請先選擇 APK 檔案</string>
+    <string name="please_wait">請稍等…</string>
+    <string name="q_a">使用幫助</string>
+    <string name="qq_files_recv_dir">QQ 文件接收資料夾</string>
+    <string name="question1">Q1：如何打開 ADB 偵錯？</string>
+    <string name="question2">Q2：如何找到我的 IP 和 Port？</string>
+    <string name="ram_utilization">RAM 使用率</string>
+    <string name="rename">重新命名</string>
+    <string name="rename_failed">重新命名失敗！</string>
+    <string name="rename_message">請輸入新名稱：</string>
+    <string name="rename_successfully">重新命名成功！</string>
+    <string name="request_permission">"為了讓這個功能正常運作，我們需要請求以下的權限：
+
+1. 儲存權限：
+ “安裝 APK”功能中的“選擇 APK 檔案”和“檔案管理”中的“上傳/下載文件”需要能正常讀取您的內部儲存空間"</string>
+    <string name="resolution">解析度</string>
+    <string name="restore">還原</string>
+    <string name="restore_dpi">還原 DPI</string>
+    <string name="restore_failed">還原失敗！</string>
+    <string name="restore_overscan">還原 Overscan</string>
+    <string name="restore_resolution">還原解析度</string>
+    <string name="restore_status">還原狀態</string>
+    <string name="restore_successfully">還原成功！</string>
+    <string name="screen_info">螢幕訊息</string>
+    <string name="screenshot">螢幕截圖</string>
+    <string name="select">選擇</string>
+    <string name="shell">指令</string>
+    <string name="shot">擷取</string>
+    <string name="signup">註冊</string>
+    <string name="sn">序號：</string>
+    <string name="successful_restart">重新啟動成功！</string>
+    <string name="successful_screenshot">截圖已經儲存到內部儲存空間 Pictures/Wearosbox 資料夾下</string>
+    <string name="temperature">溫度：</string>
+    <string name="to_9008">9008 模式</string>
+    <string name="to_fastboot">Fastboot 模式</string>
+    <string name="to_recovery">Recovery 模式</string>
+    <string name="unauthorized">尚未授權</string>
+    <string name="unconnected">尚未連線</string>
+    <string name="unhealthy">不健康</string>
+    <string name="uninstall_app">解除安裝</string>
+    <string name="uninstall_failed">解除安裝失敗</string>
+    <string name="uninstall_successfully">解除安裝成功</string>
+    <string name="unknown">未知</string>
+    <string name="update_message">"更新内容：
+%1$s
+
+發布日期：%2$s
+
+要立即下載更新嗎？"</string>
+    <string name="upload_failed">上傳失敗！</string>
+    <string name="upload_file">上傳檔案</string>
+    <string name="upload_floder">上傳資料夾</string>
+    <string name="upload_muisc_to_wrist_music">上傳音樂到抬腕聽歌</string>
+    <string name="upload_successfully">上傳成功！</string>
+    <string name="usb_charge">USB 充電</string>
+    <string name="username">使用者名稱</string>
+    <string name="username_is_taken">註冊失敗！這個使用者已被使用</string>
+    <string name="username_password_mismatch">登入失敗！使用者名稱與與密碼不相符！</string>
+    <string name="verify_email_send">註冊成功！請前往信箱驗證帳號</string>
+    <string name="version_type">版本類型：%1$s</string>
+    <string name="warning">警告</string>
+    <string name="website">官方網站</string>
+    <string name="website_wearosbox_com">官方網站：https://wearosbox.com</string>
+    <string name="wechat_pay">微信支付</string>
+    <string name="width">寬度</string>
+    <string name="wireless_charge">無線充電</string>
+    <string name="wrist_music_dir">抬腕聽歌音樂資料夾</string>
+    <string name="send_vairy_email">"發送郵件 "</string>
+    <string name="app_name_fetch_failed">"*應用程式名稱獲取失敗 "</string>
+    <string name="remember_device_address">"記住設備IP地址 "</string>
 </resources>
