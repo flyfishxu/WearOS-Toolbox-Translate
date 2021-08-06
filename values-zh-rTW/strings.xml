@@ -299,7 +299,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="adb_version">ADB 版本</string>
     <string name="third_party_apps">第三方應用程式</string>
     <string name="system_apps">系統應用程式</string>
-    <string name="is_show_app_name_hint">空白</string>
+    <string name="is_show_app_name_hint">是否要顯示出應用程式的名稱？預設為不顯示，若需要顯示請點“確定”\n\n註：\n1. 顯示應用程式名稱會拉長列表載入的速度（顯示名稱為不顯示名稱時的三倍時間）\n2. 您可以在“設定”中調整這個選項</string>
     <string name="freeze_app">停用應用程式</string>
     <string name="unfreeze_app">啟用應用程式</string>
     <string name="freeze_successful">停用成功!</string>
