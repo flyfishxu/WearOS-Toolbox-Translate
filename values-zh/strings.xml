@@ -123,7 +123,7 @@
     <string name="warning">警告</string>
     <string name="please_give_storage_permission">请手动授予程序储存权限！</string>
     <string name="error">错误</string>
-    <string name="changelog">WearOS 工具箱 1.5.0 Stable 的更新内容有：\n\n1. 修复了“Ticwear”设备“设备信息”页会闪退的问题\n2. 修复了“捐赠我们”页部分用户无法看到捐赠按钮的问题\n3. 修复了“应用管理”中部分应用以“application-label”开头的问题\n3. 修改了“账户”中登录方式统一为邮箱登录\n4. 增加了“应用库”功能（目前为测试版）\n5. 增加了“系统应用管理”功能\n5. 增加了对“繁体中文”的语言支持（感谢SHXJ提供的翻译）\n\n注：WearOS工具箱正式开放多语言支持，如果你想为WearOS工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS 工具箱 1.5.0 Stable 的更新内容有：\n\n1. 修复了“Ticwear”设备“设备信息”页会闪退的问题\n2. 修复了“捐赠我们”页部分用户无法看到捐赠按钮的问题\n3. 修复了“应用管理”中部分应用以“application-label:”开头的问题\n4. 修复了“使用帮助”在深色模式下颜色异常的问题\n5. 修复了部分用户授予了权限却仍然无法在“选择文件”中找到文件的问题\n6. 修改了“账户”中登录方式统一为邮箱登录\n7. 增加了“应用库”功能（目前为测试版）\n8. 增加了“系统应用管理”功能\n9. 增加了对“繁体中文”的语言支持（感谢SHXJ提供的翻译）\n\n注：WearOS工具箱正式开放多语言支持，如果你想为WearOS工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="menu_other_tool">其它工具</string>
     <string name="normal_reboot">正常重启</string>
     <string name="to_fastboot">Fastboot 模式</string>
@@ -194,7 +194,7 @@
     <string name="wechat_pay">微信支付</string>
     <string name="new_version_found">发现新版本: %1$s</string>
     <string name="update_message">更新内容：\n%1$s\n\n发布日期：%2$s\n\n要立即下载更新吗？</string>
-    <string name="already_saved_qrcode">已将收款码保存至“/DCIM/Camera/”目录下，要现在打开微信扫描二维码吗？</string>
+    <string name="already_saved_qrcode">已将收款码保存至“/sdcard/Pictures/Wearosbox /”目录下，要现在打开微信扫描二维码吗？</string>
     <string name="no_wechat">看起来您还没有安装微信</string>
     <string name="check_update">检查更新</string>
     <string name="no_update_found">当前版本已是最新版本</string>
@@ -205,7 +205,7 @@
     <string name="art_compile_failed">ART 编译失败</string>
     <string name="app_store">应用库</string>
     <string name="app_introduction">应用简介</string>
-    <string name="hot_app">热门应用</string>
+    <string name="hot_app">"  热门应用"</string>
     <string name="downloading_apk">正在下载安装包...</string>
     <string name="download_apk_failed">安装包下载失败！</string>
     <string name="extract_apk">提取 APK</string>
@@ -229,7 +229,7 @@
     <string name="confirm_password">确认密码</string>
     <string name="email">电子邮箱</string>
     <string name="email_havent_veried">登录失败！邮箱未验证！</string>
-    <string name="username_password_mismatch">登录失败！用户名和密码不匹配！</string>
+    <string name="username_password_mismatch">登录失败！登录邮箱和密码不匹配！</string>
     <string name="could_not_find_user">登录失败！该用户不存在！</string>
     <string name="confirm_password_not_match">两次输入的密码不一致！</string>
     <string name="login_expired">登录已失效，请重新登录！</string>
@@ -271,4 +271,22 @@
     <string name="remember_device_address">记住设备IP地址</string>
     <string name="load_app_name">加载应用名称\n(这将会花费很多时间)</string>
     <string name="adb_version">ADB 版本</string>
+    <string name="third_party_apps">第三方应用</string>
+    <string name="system_apps">系统应用</string>
+    <string name="is_show_app_name_hint">是否要显示应用名称？默认不显示应用名称，若需要请点击“确定”\n\n注：\n1. 显示应用名称将会延长列表加载速度（显示应用名称加载时长为不显示应用名称加载时长的三倍）\n2. 您可以在“设置”中调整该设置</string>
+    <string name="freeze_app">冻结应用</string>
+    <string name="unfreeze_app">解冻应用</string>
+    <string name="freeze_successful">冻结成功！</string>
+    <string name="unfreeze_successful">解冻成功！</string>
+    <string name="freeze_failed">冻结失败！</string>
+    <string name="unfreeze_failed">解冻失败！</string>
+    <string name="cant_downgrade">不允许降级操作！</string>
+    <string name="app_classification">应用分类：</string>
+    <string name="watchface">表盘</string>
+    <string name="game">游戏</string>
+    <string name="tools">工具</string>
+    <string name="social_contact">社交</string>
+    <string name="entertainment">娱乐</string>
+    <string name="life">生活</string>
+    <string name="other">其它</string>
 </resources>

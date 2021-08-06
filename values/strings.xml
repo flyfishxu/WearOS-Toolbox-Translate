@@ -196,7 +196,7 @@
     <string name="wechat_pay">Wechat Pay</string>
     <string name="new_version_found">Update Found: %1$s</string>
     <string name="update_message">Changelog:\n %1$s \n\nRelease Date: %2$s \n\nDownload the update now?</string>
-    <string name="already_saved_qrcode">Saved QR code in /DCIM/Camera.</string>
+    <string name="already_saved_qrcode">Saved QR code in /sdcard/Pictures/Wearosbox /.</string>
     <string name="no_wechat">It seems that you have not installed Wechat.</string>
     <string name="check_update">Check Update</string>
     <string name="failed_to_check_update">Failed to check update.\n%1$s</string>
@@ -208,7 +208,7 @@
     <string name="art_compile_failed">ART compile failed.</string>
     <string name="app_store">App Store</string>
     <string name="app_introduction">Introduction</string>
-    <string name="hot_app">Hot Apps</string>
+    <string name="hot_app">"  Hot Apps"</string>
     <string name="downloading_apk">Downloading…</string>
     <string name="download_apk_failed">Download APK failed!</string>
     <string name="extract_apk">Extract APK</string>
@@ -232,7 +232,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="email">Email</string>
     <string name="email_havent_veried">Login failed! Email haven`t veried!</string>
-    <string name="username_password_mismatch">Login failed! The username and password mismatch!</string>
+    <string name="username_password_mismatch">Login failed! The email and password mismatch!</string>
     <string name="could_not_find_user">Login failed! Could not find user!</string>
     <string name="confirm_password_not_match">Confirm password not match!</string>
     <string name="login_expired">Login has expired, please log in again!</string>
@@ -282,4 +282,22 @@
     <string name="remember_device_address">Remember device IP address</string>
     <string name="load_app_name">Load application name \n(It will takes a long time)</string>
     <string name="adb_version">ADB Version</string>
+    <string name="third_party_apps">Third-party Apps</string>
+    <string name="system_apps">Syttem Apps</string>
+    <string name="is_show_app_name_hint">null</string>
+    <string name="freeze_app">Freeze App</string>
+    <string name="unfreeze_app">Unfreeze App</string>
+    <string name="freeze_successful">Freeze successful!</string>
+    <string name="unfreeze_successful">Unfreeze successful!</string>
+    <string name="freeze_failed">Freeze failed!</string>
+    <string name="unfreeze_failed">Unfreeze failed!</string>
+    <string name="cant_downgrade">Downgrade operation is not allowed!</string>
+    <string name="app_classification">App Classification:</string>
+    <string name="watchface">Watchface</string>
+    <string name="game">Game</string>
+    <string name="tools">Tools</string>
+    <string name="social_contact">Social Contact</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="life">Life</string>
+    <string name="other">Other</string>
 </resources>

@@ -17,7 +17,7 @@
     <string name="action_exit">退出</string>
     <string name="advanced_reboot">進階重新啟動</string>
     <string name="alipay">支付寶</string>
-    <string name="already_saved_qrcode">已經收款碼儲存到“/DCIM/Camera/”資料夾下，現在就打開微信掃描 QRCODE 嗎?</string>
+    <string name="already_saved_qrcode">已經收款碼儲存到“/sdcard/Pictures/Wearosbox /”資料夾下，現在就打開微信掃描 QRCODE 嗎?</string>
     <string name="android_version">Android 版本：</string>
     <string name="answer1_1">1. 進入手錶“設定”-“系統”-“關於”，找到“版本號碼”，狂點版本號碼直到顯示圖片上的訊息</string>
     <string name="answer1_2">2. 回到設定主頁面並且滑動到最底部，點擊進入“開發者選項”</string>
@@ -168,7 +168,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="height">高</string>
     <string name="hello_user">您好！%1$s</string>
     <string name="home_logo">解析度</string>
-    <string name="hot_app">熱門應用程式</string>
+    <string name="hot_app">"  熱門應用程式"</string>
     <string name="how_to_get_donated_version">如何升級到捐贈版？</string>
     <string name="initialized_failed">初始化失敗</string>
     <string name="initialized_successfully">初始化成功！</string>
