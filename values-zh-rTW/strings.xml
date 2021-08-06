@@ -151,7 +151,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="forgot_password">忘記密碼</string>
     <string name="forgot_password_email_send">一封包含驗證連結的信件已經傳送到您的電子信箱！請注意查收</string>
     <string name="get_donated_version">升級到進階版</string>
-    <string name="havent_donated">這個功能需要升級到捐贈版方可使用！更多訊息請看“捐贈我們”</string>
+    <string name="havent_donated">這個功能需要升級到捐贈版！更多訊息請看“捐贈我們”</string>
     <string name="healthy">健康</string>
     <string name="height">高</string>
     <string name="hello_user">您好！%1$s</string>
@@ -171,7 +171,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="load_adb_failed">ADB 服務載入失敗！</string>
     <string name="load_adb_success">ADB 服務載入成功</string>
     <string name="loading">載入中...</string>
-    <string name="loading_adb">正在載入 ADB 服務…</string>
+    <string name="loading_adb">正在載入 ADB 服務...</string>
     <string name="login">登入</string>
     <string name="login_expired">登入已經失效，請重新登入！</string>
     <string name="login_register">登入/註冊</string>
@@ -220,7 +220,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="password">密碼</string>
     <string name="password_changed">密碼已修改！請重新登入！</string>
     <string name="please_allow_adb_request">請允許 ADB 授權請求</string>
-    <string name="please_connect_device">請先將您的手錶連線！</string>
+    <string name="please_connect_device">請先連線您的手錶！</string>
     <string name="please_give_storage_permission">請手動授予應用程式儲存權限！</string>
     <string name="please_input_email">請在“電子信箱”輸入框內輸入您的信箱！</string>
     <string name="please_input_value">請輸入 Overscan 值！</string>
@@ -303,10 +303,10 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="freeze_app">停用應用程式</string>
     <string name="unfreeze_app">啟用應用程式</string>
     <string name="freeze_successful">停用成功!</string>
-    <string name="unfreeze_successful">啟用成功</string>
+    <string name="unfreeze_successful">啟用成功!</string>
     <string name="freeze_failed">停用失敗!</string>
     <string name="unfreeze_failed">啟用失敗!</string>
-    <string name="cant_downgrade">不允取降級動作!</string>
+    <string name="cant_downgrade">不允許將應用程式降版本!</string>
     <string name="app_classification">應用程式分類:</string>
     <string name="watchface">錶盤</string>
     <string name="game">遊戲</string>
