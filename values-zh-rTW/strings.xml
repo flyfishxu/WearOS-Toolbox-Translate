@@ -65,19 +65,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="change_dpi">修改 DPI：</string>
     <string name="change_password">修改密碼</string>
     <string name="change_resolution">解析度修改：</string>
-    <string name="changelog">"WearOS 工具箱 1.2.0 Stable 的更新内容有：
-
-1. 新增了“用戶系統”
-2. 新增了“指令”
-3. \"檔案管理\" 中新增 “上传至音乐至抬腕听歌”
-4. \"螢幕工具\" 中新增 “修改螢幕 Overscan”
-5. “安裝 APK” 中 “选择文件” 可快速选择常用目录
-6. 修复了保存截图和保存收款二维码后图片无法马上在图库中出现的问题
-7. 修复了“文件管理”无法操作含有空格的文件（夹）的问题
-8. 修复了“文件管理”遇到大写后缀名时文件图标无法正常显示的问题
-9. 修复了“文件管理”和“应用管理”中提取文件/APK提取成功仍显示失败的问题
-
-注：1. “应用库” 功能原计划该版本推出，但由于存在技术和版权问题故延迟上线；2. 捐赠版特色功能将会不断增加"</string>
+    <string name="changelog">WearOS 工具箱 1.5.0 Stable 的更新内容有：\n\n1. 修復了“Ticwear”手錶“手錶訊息”頁面會閃退的問題\n2. 修復了“捐贈我們”頁面有部分使用者無法看到捐贈按鈕的問題\n3. 修復了“應用程式管理”中有一部分的應用程式會以“application-label:”開頭的問題\n4. 修復了“使用幫助”在深色模式下顏色不正常的問題\n5. 修復了一部分的使用者授予了權限卻還是無法在“選擇檔案”中找到檔案的問題\n6. 修改了“帳號”中的登入方式統一變更為信箱登入\n7. 增加了“應用程式商店”的功能（目前為測試版本）\n8. 增加了“系統應用程式管理”功能\n9. 新增了“繁體中文”的語系（感謝 SHXJ 提供的翻譯）\n\n註：WearOS工具箱正式開放多國語言的支援，如果你想為WearOS工具箱的多國語言支援貢獻一份自己的力量，歡迎 Fork Git 儲存庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="changelog_title">更新日誌</string>
     <string name="charge_status">充電狀態：</string>
     <string name="check_update">檢查更新</string>
@@ -120,7 +108,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="disconnect">斷開連線</string>
     <string name="disconnect_done">已經將所有手錶斷線</string>
     <string name="disconnecting">正在斷開連線…</string>
-    <string name="doing">操作中…</string>
+    <string name="doing"動作中…</string>
     <string name="donate_a1">到目前為止，我們的團隊成員全部都是沒有任何收入來源的高中生，在這個軟體不走商業化的情況下，開發的動力來源全都來自於興趣。但是一個只靠興趣在支撐的方案是很難維持下去的，我們曾經想過要在 APP 內投放廣告或是變成付費制的應用程式來賺取收入，但是最後為了每一個使用者的體驗，我們否決了這兩個提案。所以為了這個應用程式能不斷的開發下去，並且也是為了保證開發的初心，我們非常需要您的捐贈！</string>
     <string name="donate_a2">WearOS 工具箱中的 “線上更新” 和以後會新增的“應用程式商店”功能 會非常依賴高速低延遲的伺服器，您的捐贈主要就是用在這裡，在資金充足的情況下我們致力於為您帶來更優質的伺服器以及更流暢的使用體驗</string>
     <string name="donate_a3">我們有支付寶以及微信兩種捐贈方式。</string>
@@ -225,7 +213,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="offline">離線</string>
     <string name="ok">確定</string>
     <string name="old_password">舊密碼</string>
-    <string name="operation">操作</string>
+    <string name="operation">動作</string>
     <string name="original_dpi">原始 DPI：</string>
     <string name="original_resolution">原始解析度：</string>
     <string name="package_name">Package 名稱：</string>
@@ -263,7 +251,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="screenshot">螢幕截圖</string>
     <string name="select">選擇</string>
     <string name="shell">指令</string>
-    <string name="shot">擷取</string>
+    <string name="shot">截圖</string>
     <string name="signup">註冊</string>
     <string name="sn">序號：</string>
     <string name="successful_restart">重新啟動成功！</string>
@@ -304,6 +292,27 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="wireless_charge">無線充電</string>
     <string name="wrist_music_dir">抬腕聽歌音樂資料夾</string>
     <string name="send_vairy_email">"發送郵件 "</string>
-    <string name="app_name_fetch_failed">"*應用程式名稱獲取失敗 "</string>
-    <string name="remember_device_address">"記住設備IP地址 "</string>
+    <string name="app_name_fetch_failed">"*應用程式名稱取得失敗 "</string>
+    <string name="remember_device_address">"記住手錶IP地址 "</string>
+    <string name="settings">設定</string>
+    <string name="load_app_name">載入應用程式名稱 \n(可能需要比較久的時間))</string>
+    <string name="adb_version">ADB 版本</string>
+    <string name="third_party_apps">第三方應用程式</string>
+    <string name="system_apps">系統應用程式</string>
+    <string name="is_show_app_name_hint">空白</string>
+    <string name="freeze_app">停用應用程式</string>
+    <string name="unfreeze_app">啟用應用程式</string>
+    <string name="freeze_successful">停用成功!</string>
+    <string name="unfreeze_successful">啟用成功</string>
+    <string name="freeze_failed">停用失敗!</string>
+    <string name="unfreeze_failed">啟用失敗!</string>
+    <string name="cant_downgrade">不允取降級動作!</string>
+    <string name="app_classification">應用程式分類:</string>
+    <string name="watchface">錶盤</string>
+    <string name="game">遊戲</string>
+    <string name="tools">工具</string>
+    <string name="social_contact">社交</string>
+    <string name="entertainment">娛樂</string>
+    <string name="life">生活</string>
+    <string name="other">其他</string>
 </resources>
