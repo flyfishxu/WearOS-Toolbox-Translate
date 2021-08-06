@@ -108,7 +108,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="disconnect">斷開連線</string>
     <string name="disconnect_done">已經將所有手錶斷線</string>
     <string name="disconnecting">正在斷開連線…</string>
-    <string name="doing"動作中…</string>
+    <string name="doing">動作中…</string>
     <string name="donate_a1">到目前為止，我們的團隊成員全部都是沒有任何收入來源的高中生，在這個軟體不走商業化的情況下，開發的動力來源全都來自於興趣。但是一個只靠興趣在支撐的方案是很難維持下去的，我們曾經想過要在 APP 內投放廣告或是變成付費制的應用程式來賺取收入，但是最後為了每一個使用者的體驗，我們否決了這兩個提案。所以為了這個應用程式能不斷的開發下去，並且也是為了保證開發的初心，我們非常需要您的捐贈！</string>
     <string name="donate_a2">WearOS 工具箱中的 “線上更新” 和以後會新增的“應用程式商店”功能 會非常依賴高速低延遲的伺服器，您的捐贈主要就是用在這裡，在資金充足的情況下我們致力於為您帶來更優質的伺服器以及更流暢的使用體驗</string>
     <string name="donate_a3">我們有支付寶以及微信兩種捐贈方式。</string>
