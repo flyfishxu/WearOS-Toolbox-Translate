@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">WearOS ToolBox</string>
+    <string name="changelog">WearOS Toolbox 1.5.6 Stable changelog:\n- Improve ADB Binaries importing\n- Improve UI\n- Bug fixes\n- Supported pm install\n- Added Open Source Lisenses page\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="app_name">WearOS Toolbox</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="menu_home">Home</string>
     <string name="menu_install_apk">Install APK</string>
     <string name="connect">Connect</string>
     <string name="ip_textView_hint">Device address (IP:Port)</string>
-    <string name="please_wait">Wait a minute…</string>
+    <string name="please_wait">Loading…</string>
     <string name="connecting">Connecting…</string>
     <string name="loading_adb">Starting ADB service…</string>
     <string name="load_adb_success">ADB service has been started.</string>
@@ -16,7 +17,7 @@
     <string name="nav_header_title">WearOS Toolbox</string>
     <string name="action_exit">Exit</string>
     <string name="nav_header_subtitle">A geek toolbox for WearOS devices</string>
-    <string name="empty_address">Device address is empty.</string>
+    <string name="empty_address">IP address is empty.</string>
     <string name="dialog_title_hint">Notice</string>
     <string name="menu_deviceInfo">Device Info</string>
     <string name="disconnect">Disconnect</string>
@@ -44,8 +45,8 @@
     <string name="package_name">Package Name:</string>
     <string name="app_version">Version:</string>
     <string name="choose_apk">Browse…</string>
-    <string name="install_apk">Install</string>
-    <string name="layout">Logcat:</string>
+    <string name="install_apk">Install APK</string>
+    <string name="layout">Log:</string>
     <string name="no_file">This folder is empty.</string>
     <string name="select">Select</string>
     <string name="choose_your_apk">Choose an APK File</string>
@@ -104,7 +105,7 @@
     <string name="edit_battery_power">Edit Battery Capacity</string>
     <string name="apply">Apply</string>
     <string name="restore">Restore</string>
-    <string name="about">A handheld app for WearOS devices, based on Android Debug Bridge.\n\nFeatures: \n1. Install APK: You can install any 3rd-party apks for WearOS.\n2. Screen Tool:  Modify your smartwatches\' screen specifications, currently supported DPI and Resolution customize.\n3. Battery Tool: Check device\'s battery healthy and voltage and battery capacity and so on.\n4. App Manager: All in one tools to manage installed apps.\n5. File Manager: Upload/Download files to smartwatches.\n\nIt\'s not our final project, more features will be available in the near future.\nInstall WearOS for Windows in your PC for better experience.\nFeel free to join our QQ group: 956029774 for more information or feedback bugs.</string>
+    <string name="about">A handheld app for WearOS devices, based on Android Debug Bridge.\n\nFeatures: \n1. Install APK: You can install any 3rd-party apks for WearOS.\n2. Screen Tool:  Modify your smartwatches\' screen specifications, currently supported DPI and Resolution customize.\n3. Battery Tool: Check device\'s battery healthy and voltage and battery capacity and so on.\n4. App Manager: All in one tools to manage installed apps.\n5. File Manager: Upload/Download files to smartwatches.\n6. ADB Terminal: Directly run ADB commends to your watch.\n\nIt\'s not our final project, more features will be available in the near future.\nInstall WearOS for Windows in your PC for better experience.\nFeel free to join our QQ group: 956029774 for more information or feedback bugs.</string>
     <string name="device_status">Device Status:</string>
     <string name="battery_power">Battery Capacity</string>
     <string name="app_manager">App Manager</string>
@@ -135,7 +136,7 @@
     <string name="shot">Take a Screenshot</string>
     <string name="successful_restart">Device is restarting.</string>
     <string name="please_allow_adb_request">Please grant ADB permission.</string>
-    <string name="successful_screenshot">Screenshot saved in \"/sdcard/Pictures/Wearosbox\"</string>
+    <string name="successful_screenshot">Screenshot is saved in \"/sdcard/Pictures/Wearosbox\"</string>
     <string name="menu_file_manager">File Manager</string>
     <string name="file_operations">Operations</string>
     <string name="copy">Copy</string>
@@ -181,8 +182,7 @@
     <string name="accept">Accept</string>
     <string name="negative">Cancel</string>
     <string name="clean_data_successfully">Clean successfully.</string>
-    <string name="changelog">[MT] The updates of WearOS Toolbox 1.2.0 Stable include:\n\n1. Added \"User System\"\n2. Added \"Command Line\"\n3. \"Upload to music to listen to songs by raising your wrist\" is added in \"File Management\"\n4. Added \"Modify Screen Overscan\" in \"Screen Tools\"\n5. \"Select File\" in \"Install APK\" can quickly select common directories\n6. Fixed the problem that the picture cannot appear in the gallery immediately after saving the screenshot and saving the payment QR code\n7. Fixed the problem that \"File Management\" could not operate files (folders) with spaces\n8. Fixed the problem that the file icon cannot be displayed normally when the \"File Management\" encounters an uppercase suffix name\n9. Fixed the problem that the file/APK extraction succeeded but failed in \"File Management\" and \"Application Management\"\n\nNote: 1. The \"Application Library\" function was originally planned to be released in this version, but due to technical and copyright issues, the launch was delayed; 2. The feature features of the donation version will continue to increase</string>
-    <string name="art_compile">ART Compile</string>
+   <string name="art_compile">ART Compile</string>
     <string name="upload_floder">Upload Folder</string>
     <string name="current_path">Current Path:</string>
     <string name="donate_us">Donate Us</string>
@@ -200,7 +200,7 @@
     <string name="no_wechat">It seems that you have not installed Wechat.</string>
     <string name="check_update">Check Update</string>
     <string name="failed_to_check_update">Failed to check update.\n%1$s</string>
-    <string name="checking_update">Checking for Update</string>
+    <string name="checking_update">Checking…</string>
     <string name="current_version">Version: %1$s</string>
     <string name="no_update_found">Up to date.</string>
     <string name="donate_q2">Where?</string>
@@ -208,9 +208,9 @@
     <string name="art_compile_failed">ART compile failed.</string>
     <string name="app_store">App Store</string>
     <string name="app_introduction">Introduction</string>
-    <string name="hot_app">"  Hot Apps"</string>
+    <string name="hot_app">Hot Apps</string>
     <string name="downloading_apk">Downloading…</string>
-    <string name="download_apk_failed">Download APK failed!</string>
+    <string name="download_apk_failed">Download failed.</string>
     <string name="extract_apk">Extract APK</string>
     <string name="battery_health_">Battery Health</string>
     <string name="battery_volt_">Battery Voltage</string>
@@ -219,52 +219,52 @@
     <string name="temperature">Temperature:</string>
     <string name="hello_user">Hello! %1$s</string>
     <string name="login_register">Login/Register</string>
-    <string name="login">Login</string>
-    <string name="signup">Signup</string>
+    <string name="login">Sign in</string>
+    <string name="signup">Sign up</string>
     <string name="version_type">Version Type: %1$s</string>
     <string name="donated_version">Donated Version</string>
-    <string name="not_login">Not Login</string>
+    <string name="not_login">Please sign in</string>
     <string name="common_version">Common Version</string>
-    <string name="account">Accunt</string>
+    <string name="account">Account</string>
     <string name="password">Password</string>
-    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="username">Username</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="email">Email</string>
-    <string name="email_havent_veried">Login failed! Email haven`t veried!</string>
-    <string name="username_password_mismatch">Login failed! The email and password mismatch!</string>
-    <string name="could_not_find_user">Login failed! Could not find user!</string>
-    <string name="confirm_password_not_match">Confirm password not match!</string>
-    <string name="login_expired">Login has expired, please log in again!</string>
+    <string name="email_havent_veried">Failed to login: Verify your Email first.</string>
+    <string name="username_password_mismatch">Failed to login: Incorrect username or password.</string>
+    <string name="could_not_find_user">Failed to login: User not found.</string>
+    <string name="confirm_password_not_match">Password and confirm password does not match.</string>
+    <string name="login_expired">Password has expired. Please log in again.</string>
     <string name="logout">Logout</string>
-    <string name="logouted">Logouted!</string>
+    <string name="logouted">Logged out.</string>
     <string name="email_">Email: %1$s</string>
-    <string name="please_input_email">Please enter your email in the \"Account\" editbox!</string>
-    <string name="login_successfully">Login successfully!</string>
-    <string name="email_is_taken">Signup failed! The email is already taken by another user</string>
-    <string name="forgot_password_email_send">A email which is included a verify link have been sended!</string>
-    <string name="verify_email_send">Signup successfully! Please go to your email to verify your account</string>
-    <string name="username_is_taken">Signup filed! Username has already been taken</string>
-    <string name="find_password">Find Password</string>
+    <string name="please_input_email">Please enter your Email.</string>
+    <string name="login_successfully">Logged in.</string>
+    <string name="email_is_taken">This email address is already taken. Please try another.</string>
+    <string name="forgot_password_email_send">An email has been sent to your email address containing an activation link.</string>
+    <string name="verify_email_send">In order to complete the sign-up process, please click the confirmation link.</string>
+    <string name="username_is_taken">This username is already taken. Please try another.</string>
+    <string name="find_password">Reset Password</string>
     <string name="change_password">Change Password</string>
     <string name="old_password">Old Password</string>
     <string name="new_password">New Password</string>
-    <string name="password_changed">Password has changed! Please relogin!</string>
+    <string name="password_changed">Your account credentials have changed. Please log in.</string>
     <string name="confirm_change">Confirm Change</string>
-    <string name="shell">Shell</string>
+    <string name="shell">ADB Terminal</string>
     <string name="exec">Exec</string>
-    <string name="donate_q4">How to get donated version?</string>
-    <string name="donate_a4">[MT] Donate more than 6.99 yuan to us to get the donation version. Please be sure to note the email address bound to your account when donating. After receiving the donation, we will process it within 24 hours. If your account has not changed to the donation version after 24 hours, please Contact QQ:1901538716</string>
-    <string name="get_donated_version">Get Donated Version</string>
-    <string name="how_to_get_donated_version">How to get Donated Version?</string>
-    <string name="havent_donated">This function needs Donated Version, more detail see \"Donate Us\"!</string>
+    <string name="donate_q4">How to upgrade?</string>
+    <string name="donate_a4">Considering to donate us. Minimal amount is CNY 6.99. Please enter your Emali in remarks column.\nContact us if your account is not upgraded automatically in 24 hours. QQ: 1901538716</string>
+    <string name="get_donated_version">Upgraded to Donated Version</string>
+    <string name="how_to_get_donated_version">How to get upgrade?</string>
+    <string name="havent_donated">Sorry, this feature requires upgraded version. For more details, please check \"Donate Us\" page.</string>
     <string name="developer">Developer:</string>
-    <string name="qq_files_recv_dir">QQ receive dictionary</string>
-    <string name="internal_storage_dir">Internal Storage dictionary</string>
-    <string name="download_dir">Download dictionary</string>
-    <string name="wrist_music_dir">Wrist Music dictionary</string>
+    <string name="qq_files_recv_dir">QQ File Receive Dictionary</string>
+    <string name="internal_storage_dir">Internal Storage</string>
+    <string name="download_dir">Download</string>
+    <string name="wrist_music_dir">Wrist Music Dictionary</string>
     <string name="choose_dir">Choose Dictionary</string>
-    <string name="upload_muisc_to_wrist_music">Upload music to Wrist Music</string>
+    <string name="upload_muisc_to_wrist_music">Upload Music to Wrist Music</string>
     <string name="edit_screen_overscan">Edit Screen Overscan:</string>
     <string name="overscan_x" translatable="false">Overscan X</string>
     <string name="overscan_y" translatable="false">Overscan Y</string>
@@ -272,32 +272,62 @@
     <string name="restore_overscan">Restore Overscan</string>
     <string name="please_input_value">Please input overscan value!</string>
     <string name="send_vairy_email">Send Now</string>
-    <string name="app_name_fetch_failed">*App name fetch failed</string>
+    <string name="app_name_fetch_failed">*Failed to fetch App name</string>
 
     <!-- Preference Titles -->
 
     <!-- Messages Preferences -->
 
     <!-- Sync Preferences -->
-    <string name="remember_device_address">Remember device IP address</string>
-    <string name="load_app_name">Load application name \n(It will takes a long time)</string>
-    <string name="adb_version">ADB Version</string>
+    <string name="remember_device_address">Remember IP address</string>
+    <string name="load_app_name">Loading application name… It takes a long time, please sit down and relax.</string>
+    <string name="adb_version">ADB Binary Version</string>
     <string name="third_party_apps">Third-party Apps</string>
-    <string name="system_apps">Syttem Apps</string>
-    <string name="is_show_app_name_hint">null</string>
+    <string name="system_apps">System Apps</string>
+    <string name="is_show_app_name_hint">Do you want to display the application name? The application name is not displayed by default, please click \"OK\" if necessary.\n\nDisplay the application name list will extend loading time (Triple time than disabled - package name only)</string>
     <string name="freeze_app">Freeze App</string>
     <string name="unfreeze_app">Unfreeze App</string>
-    <string name="freeze_successful">Freeze successful!</string>
+    <string name="freeze_successful">Frozen successful!</string>
     <string name="unfreeze_successful">Unfreeze successful!</string>
-    <string name="freeze_failed">Freeze failed!</string>
-    <string name="unfreeze_failed">Unfreeze failed!</string>
-    <string name="cant_downgrade">Downgrade operation is not allowed!</string>
-    <string name="app_classification">App Classification:</string>
+    <string name="freeze_failed">Failed to freeze.</string>
+    <string name="unfreeze_failed">Failed to unfreeze.</string>
+    <string name="cant_downgrade">Downgrade is not allowed!</string>
+    <string name="app_classification">App Categories:</string>
     <string name="watchface">Watchface</string>
     <string name="game">Game</string>
-    <string name="tools">Tools</string>
-    <string name="social_contact">Social Contact</string>
+    <string name="tools">Tool</string>
+    <string name="social_contact">Communication</string>
     <string name="entertainment">Entertainment</string>
     <string name="life">Life</string>
-    <string name="other">Other</string>
+    <string name="other">Misc</string>
+    <string name="classification">Categories</string>
+    <string name="cant_verify">Can\'t verify APK\'s signature, it may corrupted.</string>
+    <string name="low_sdk_version">Device\'s Android version is too low to install the APK.</string>
+    <string name="archi_not_supported">Your device\'s cpu architecture do not supported the APK.</string>
+    <string name="not_allowed">Your device not allowed to sideloading apps.</string>
+    <string name="insuff_storage">Insufficient storage available.</string>
+    <string name="invalid_file_path">File name includes special characters symbols, please change the apk name.</string>
+    <string name="missing_shared_lib">Android OS is missing required shared library.</string>
+    <string name="file_not_apk">Selected file is not a valid APK file.</string>
+    <string name="system_internal_error">System Internal Error, please try again later.</string>
+    <string name="apk_test_only">Test-Only APK. Please install it by in-app terminal with command\nadb install -t\nor Release the APK.</string>
+    <string name="question3">Q3: What\'s the differences between ADB versions?</string>
+    <string name="answer3">Theoretically, the newer Android, the newer ADB version.\nIf you are facing connection issues, please switch another ADB binary.\nADB compiled by Surge1223 @ xda-developers</string>
+    <string name="no_route_to_host">No route to host: If the IP address is correct, it usually caused by your router or your phone. Following ways may solve the problem.\n1. Check your device\'s IP address (in most cases)\n2. Restart your wireless router, phone and watch.\n3. Connect to your watch with another Wi-Fi or hotspot\n4. Disable AP Isolation.\n5. Change another ADB Binary version.</string>
+    <string name="adb_missing">ADB binary is missing. Failed to connect to your device.\\n Please contact to developers.</string>
+    <string name="connect_time_out">Connection timed out. Please check IP address and network between devices.</string>
+    <string name="connect_refused">Connection refused. Please enable ADB Debug in Developer settings or try again later.</string>
+    <string name="china">China Mainland</string>
+    <string name="taiwan_area">Taiwan, China</string>
+    <string name="other_regions">Other Regions</string>
+    <string name="line" translatable="false">LINE</string>
+    <string name="qq_group">QQ Group</string>
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="adb_not_supported">Current ADB Binary version is not available on your OS. Plases change it on Settings.\nAlso try to force stop WearOS Toolbox, especially having changed ADB version.</string>
+    <string name="not_change">Keep current version</string>
+    <string name="ip_mistype">IP address is invaild. Check if there is a typo in it.</string>
+    <string name="libadb39_temp" translatable="false">请清除数据或在右上角切换 ADB 版本</string>
+    <string name="install_command">Choose apk install command:</string>
+    <string name="open_source">Open Source Licenses</string>
 </resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="adbVersion">
+        <item>1.0.36</item>
+        <item>1.0.37</item>
+        <item>1.0.39</item>
+        <item>1.0.41 Default</item>
+    </string-array>
+
+    <string-array name="installMode">
+        <item>adb install</item>
+        <item>pm install</item>
+    </string-array>
+</resources>

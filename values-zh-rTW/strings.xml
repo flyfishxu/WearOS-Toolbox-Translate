@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about">"主要功能：
-1. 安裝APK：您可以安裝適合手錶的任何第三方應用程式
-2. 螢幕工具：修改或是檢查手錶的螢幕設定，例如：DPI，解析度
-3. 電池工具：檢查手錶的電池健康程度以及電壓與電池的電量
-4. 應用程式管理：您可以很方便地對手錶裡面的應用程式進行解除安裝、清除資料的動作
-5. 檔案管理：可以管理手錶裡面的資料；上傳檔案到手錶、或是下載檔案到手機
-6. 指令：對手錶執行 Shell 的指令
-
-更多的功能正在開發中...
-
-如果您有任何的問題或是軟體出現異常狀況，可加入我們的QQ群組：713608038 向我們提出，或在 WearBBS 的 WearOS工具箱 版塊內討論，論壇網址：https://wearbbs.cn"</string>
+    <string name="about">主要功能：\n1. 安裝APK：您可以安裝適合手錶的任何第三方應用程式\n2. 螢幕工具：修改或是檢查手錶的螢幕設定，例如：DPI，解析度\n3. 電池工具：檢查手錶的電池健康程度以及電壓與電池的電量\n4. 應用程式管理：您可以很方便地對手錶裡面的應用程式進行解除安裝、清除資料的動作\n5. 檔案管理：可以管理手錶裡面的資料；上傳檔案到手錶、或是下載檔案到手機\n6. 指令：對手錶執行 Shell 的指令\n7.應用程式商店：聚集了優秀的手錶應用程式，完善手錶功能\n\n更多功能正在開發中...\n\n如果您有任何問題或是軟體出現異常狀況，請查閱「聯絡我們」中提供的聯絡方式向我們反應</string>
     <string name="ac_charge">AC 充電</string>
     <string name="accept">接受</string>
     <string name="account">帳號</string>
@@ -65,7 +55,6 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="change_dpi">修改 DPI：</string>
     <string name="change_password">修改密碼</string>
     <string name="change_resolution">解析度修改：</string>
-    <string name="changelog">WearOS 工具箱 1.5.0 Stable 的更新内容有：\n\n1. 修復了“Ticwear”手錶“手錶訊息”頁面會閃退的問題\n2. 修復了“捐贈我們”頁面有部分使用者無法看到捐贈按鈕的問題\n3. 修復了“應用程式管理”中有一部分的應用程式會以“application-label:”開頭的問題\n4. 修復了“使用幫助”在深色模式下顏色不正常的問題\n5. 修復了一部分的使用者授予了權限卻還是無法在“選擇檔案”中找到檔案的問題\n6. 修改了“帳號”中的登入方式統一變更為信箱登入\n7. 增加了“應用程式商店”的功能（目前為測試版本）\n8. 增加了“系統應用程式管理”功能\n9. 新增了“繁體中文”的語系（感謝 SHXJ 提供的翻譯）\n\n註：WearOS工具箱正式開放多國語言的支援，如果你想為WearOS工具箱的多國語言支援貢獻一份自己的力量，歡迎 Fork Git 儲存庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="changelog_title">更新日誌</string>
     <string name="charge_status">充電狀態：</string>
     <string name="check_update">檢查更新</string>
@@ -150,7 +139,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="force_stop_successfully">強制停止成功</string>
     <string name="forgot_password">忘記密碼</string>
     <string name="forgot_password_email_send">一封包含驗證連結的信件已經傳送到您的電子信箱！請注意查收</string>
-    <string name="get_donated_version">升級到進階版</string>
+    <string name="get_donated_version">升級到捐贈版</string>
     <string name="havent_donated">這個功能需要升級到捐贈版！更多資訊請看“捐贈我們”</string>
     <string name="healthy">健康</string>
     <string name="height">高度</string>
@@ -315,4 +304,25 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="entertainment">娛樂</string>
     <string name="life">生活</string>
     <string name="other">其他</string>
+    <string name="classification">分類</string>
+    <string name="cant_verify">無法驗證 APK 檔案的簽名，檔案可能已經損壞!</string>
+    <string name="low_sdk_version">系統 Android 版本低於 APK 檔案的最低安裝標準</string>
+    <string name="archi_not_supported">您手錶的 CPU 架構不支援這個應用程式</string>
+    <string name="not_allowed" >您的手錶不支援從 sideload 安裝 APK 檔案</string>
+    <string name="insuff_storage" >可用的剩餘儲存空間不足</string>
+    <string name="invalid_file_path" >檔案名稱包含非法字元，請修改名稱</string>
+    <string name="missing_shared_lib" >Android 系統缺少必要的函式庫，不支援這個應用程式</string>
+    <string name="file_not_apk" >您選擇的不是 APK 檔案</string>
+    <string name="system_internal_error" >系統內部異常，請稍後重新嘗試</string>
+    <string name="apk_test_only" >這個安裝包僅供測試用途，請手動使用指令安裝：\\nadb install -t\\n 或是編譯時使用 Release 建構檔案。</string>
+    <string name="question3">Q3：設定中的 ADB 版本有哪裡不一樣的?</string>
+    <string name="china">中國大陸</string>
+    <string name="taiwan_area">臺灣地區</string>
+    <string name="other_regions">其它地區</string>
+    <string name="qq_group">"QQ 群組 "</string>
+    <string name="contact_us">"聯繫我們 "</string>
+    <string name="connect_refused">手錶拒絕連線。請確定手錶已經打開ADB網路偵錯。\n剛開機的手錶也有可能出現這個問題，請等待數分鐘後再次嘗試</string>
+    <string name="connect_time_out">連線超時，請檢查IP位址、手錶與手機的網路設定</string>
+    <string name="adb_missing">無法複製ADB核心元件，可能是系統不支援，請聯絡開發人員。</string>
+    <string name="no_route_to_host">伺服器沒有回應，這有可能是WiFi路由器（也有可能是手機系統）引起的問題</string>
 </resources>
