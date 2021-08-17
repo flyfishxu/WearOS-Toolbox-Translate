@@ -333,7 +333,7 @@
     <string name="upload_failed_skip">Upload failed.\nSome files was skippped by your OS.</string>
     <string name="question4">Q4: Connect status always offline but cannot grant debug permission?</string>
     <string name="answer4">Please switch to another ADB version in App Settings and restart your watch.</string>
-    <string name="user_info_missing">用户名和密码不能为空</string>
     <string name="download_failed_skip">Download failed.\nSome files was skippped by your OS.</string>
     <string name="upload_file_successfully">Upload file successfully.</string>
+    <string name="user_info_missing">Please provide Email and password.</string>
 </resources>

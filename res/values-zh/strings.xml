@@ -319,7 +319,7 @@
     <string name="upload_failed_skip">部分文件无法上传，已被系统跳过，请检查日志。</string>
     <string name="question4">Q4：连接状态一直显示离线，手表却没有弹出授权提示？</string>
     <string name="answer4">请尝试在工具箱设置切换 ADB 版本，然后重启手表。</string>
-    <string name="user_info_missing">用户名和密码不能为空</string>
+    <string name="user_info_missing">邮箱地址和密码不能为空</string>
     <string name="download_failed_skip">部分文件无法下载，已被系统跳过，请检查日志。</string>
     <string name="upload_file_successfully">上传文件成功</string>
 </resources>
