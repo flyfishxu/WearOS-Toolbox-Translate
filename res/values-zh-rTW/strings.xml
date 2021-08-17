@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about">主要功能：\n1. 安裝APK：您可以安裝適合手錶的任何第三方應用程式\n2. 螢幕工具：修改或是檢查手錶的螢幕設定，例如：DPI，解析度\n3. 電池工具：檢查手錶的電池健康程度以及電壓與電池的電量\n4. 應用程式管理：您可以很方便地對手錶裡面的應用程式進行解除安裝、清除資料的動作\n5. 檔案管理：可以管理手錶裡面的資料；上傳檔案到手錶、或是下載檔案到手機\n6. 指令：對手錶執行 Shell 的指令\n7.應用程式商店：聚集了優秀的手錶應用程式，完善手錶功能\n\n更多功能正在開發中...\n\n如果您有任何問題或是軟體出現異常狀況，請查閱「聯絡我們」中提供的聯絡方式向我們反應</string>
-    <string name="ac_charge">AC 充電</string>
     <string name="accept">接受</string>
     <string name="account">帳號</string>
     <string name="action_exit">退出</string>
     <string name="advanced_reboot">進階重新啟動</string>
     <string name="alipay">支付寶</string>
-    <string name="already_saved_qrcode">已經收款碼儲存到“/sdcard/Pictures/Wearosbox /“資料夾下，現在就打開微信掃描 QRCODE 嗎?</string>
+    <string name="already_saved_qrcode">已經收款碼儲存到“/sdcard/Pictures/Wearosbox“資料夾下，現在就打開微信掃描 QRCODE 嗎?</string>
     <string name="android_version">Android 版本：</string>
     <string name="answer1_1">1. 進入手錶“設定”-“系統”-“關於”，找到“版本號碼”，狂點版本號碼直到顯示圖片上的訊息</string>
     <string name="answer1_2">2. 回到設定主頁面並且滑動到最底部，點擊進入“開發者選項”</string>
@@ -21,7 +20,7 @@ WearOS 手錶：TicWatch E2/C2/S2/Pro/Pro3；小米手錶；Moto 360 1代/2代 �
 Ticwear 手錶：Ticwatch 1；Ticwatch 2；Ticwatch S；Ticwatch E
 OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，若要使用工具箱，建議使用 OTG 的方式連線"</string>
     <string name="apkSize">APK 大小：</string>
-    <string name="apk_is_damaged">APK 已毀損！</string>
+    <string name="apk_is_damaged">APK 已毀損</string>
     <string name="app_introduction">應用程式簡介</string>
     <string name="app_manager">應用程式管理</string>
     <string name="app_name">WearOS 工具箱</string>
@@ -31,10 +30,10 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="application_name">應用程式名稱：</string>
     <string name="apply">套用</string>
     <string name="apply_dpi">套用 DPI</string>
-    <string name="apply_failed">套用失敗！</string>
+    <string name="apply_failed">套用失敗</string>
     <string name="apply_overscan">套用 Overscan</string>
     <string name="apply_resolution">套用解析度</string>
-    <string name="apply_successfully">套用成功！</string>
+    <string name="apply_successfully">套用成功</string>
     <string name="are_you_sure">你確定要這樣做嗎?</string>
     <string name="art_compile">ART 編譯</string>
     <string name="art_compile_failed">ART 編譯失敗</string>
@@ -68,7 +67,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="common_version">普通版</string>
     <string name="confirm_change">確認修改</string>
     <string name="confirm_password">確認密碼</string>
-    <string name="confirm_password_not_match">兩次輸入的密碼不相同！</string>
+    <string name="confirm_password_not_match">兩次輸入的密碼不相同</string>
     <string name="connect">連線</string>
     <string name="connect_condition">連線狀態：</string>
     <string name="connect_failed">連線失敗</string>
@@ -76,10 +75,10 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="connecting">正在連線…</string>
     <string name="copy">複製</string>
     <string name="copy_cut_hint">按下貼上按鈕貼上資料(夾)</string>
-    <string name="copy_failed">複製失敗！</string>
-    <string name="copy_successfully">複製成功！</string>
+    <string name="copy_failed">複製失敗</string>
+    <string name="copy_successfully">複製成功</string>
     <string name="cores">核心：</string>
-    <string name="could_not_find_user">登入失敗！找不到這個使用者！</string>
+    <string name="could_not_find_user">登入失敗：找不到這個使用者</string>
     <string name="cpu_info">CPU 資訊</string>
     <string name="current_dpi">目前 DPI：</string>
     <string name="current_path">目前路徑：</string>
@@ -87,8 +86,8 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="current_version">應用程式版本：%1$s</string>
     <string name="cut">剪下</string>
     <string name="delete">刪除</string>
-    <string name="delete_failed">刪除失敗！</string>
-    <string name="delete_successfully">刪除成功！</string>
+    <string name="delete_failed">刪除失敗</string>
+    <string name="delete_successfully">刪除成功</string>
     <string name="developer">開發人員：</string>
     <string name="device_status">手錶狀態：</string>
     <string name="device_summary">手錶資訊</string>
@@ -104,26 +103,26 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="donate_a4">向我們捐贈6.99元以上即可獲得捐贈版，捐贈時請務必備註您的帳號綁定的電子信箱，收到後我們會在24小時內處理完畢，若超過24小時您的帳號還是沒有變成捐贈版，請聯絡QQ：1901538716</string>
     <string name="donate_q1">Q1：為什麼我們需要您的捐贈？</string>
     <string name="donate_q2">Q2：您的捐贈將會被使用在哪裡？</string>
-    <string name="donate_q3">Q3：捐贈方式？</string>
+    <string name="donate_q3">Q2：捐贈方式？</string>
     <string name="donate_q4">Q4：如何升級到捐贈版？</string>
     <string name="donate_us">捐贈我們</string>
     <string name="donated_version">捐贈版</string>
     <string name="download">下載</string>
-    <string name="download_apk_failed">安裝包下載失敗！</string>
+    <string name="download_apk_failed">安裝包下載失敗</string>
     <string name="download_dir">下載資料夾</string>
     <string name="download_file">下載檔案</string>
-    <string name="download_file_failed">檔案下載失敗！</string>
-    <string name="download_file_successfully">檔案下載成功！</string>
+    <string name="download_file_failed">檔案下載失敗</string>
+    <string name="download_file_successfully">檔案下載成功</string>
     <string name="downloading_apk">正在下載安裝包...</string>
     <string name="edit_battery_power">修改電池電量</string>
     <string name="edit_screen_overscan">修改螢幕 Overscan 值：</string>
     <string name="email">電子信箱</string>
     <string name="email_">信箱：%1$s</string>
-    <string name="email_havent_veried">登入失敗！尚未驗證信箱！</string>
-    <string name="email_is_taken">註冊失敗！這個電子信箱已被註冊</string>
+    <string name="email_havent_veried">登入失敗：尚未驗證信箱</string>
+    <string name="email_is_taken">註冊失敗：這個電子信箱已被註冊</string>
     <string name="empty_address">請輸入手錶位址</string>
-    <string name="enter_correct_dpi">請輸入正確的DPI！</string>
-    <string name="enter_correct_resolution">請輸入正確的解析度！</string>
+    <string name="enter_correct_dpi">請輸入正確的DPI</string>
+    <string name="enter_correct_resolution">請輸入正確的解析度</string>
     <string name="error">錯誤</string>
     <string name="exec">執行</string>
     <string name="extract_apk">提取 APK</string>
@@ -138,35 +137,34 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="force_stop_failed">強制停止失敗</string>
     <string name="force_stop_successfully">強制停止成功</string>
     <string name="forgot_password">忘記密碼</string>
-    <string name="forgot_password_email_send">一封包含驗證連結的信件已經傳送到您的電子信箱！請注意查收</string>
+    <string name="forgot_password_email_send">一封包含驗證連結的信件已經傳送到您的電子信箱。請注意查收</string>
     <string name="get_donated_version">升級到捐贈版</string>
     <string name="havent_donated">這個功能需要升級到捐贈版！更多資訊請看“捐贈我們”</string>
     <string name="healthy">健康</string>
     <string name="height">高度</string>
     <string name="hello_user">您好！%1$s</string>
-    <string name="home_logo">解析度</string>
     <string name="hot_app">"熱門應用程式"</string>
     <string name="how_to_get_donated_version">如何升級到捐贈版？</string>
     <string name="initialized_failed">初始化失敗</string>
-    <string name="initialized_successfully">初始化成功！</string>
+    <string name="initialized_successfully">初始化成功</string>
     <string name="input_new_battery_power">輸入您想修改的電量</string>
     <string name="install_apk">安裝 APK</string>
-    <string name="install_failed">安裝失敗！</string>
-    <string name="install_success">安裝成功！</string>
+    <string name="install_failed">安裝失敗</string>
+    <string name="install_success">安裝成功</string>
     <string name="installing">正在安裝...</string>
     <string name="internal_storage_dir">內部儲存空間</string>
     <string name="ip_textView_hint">手錶位址（IP:Port）</string>
     <string name="layout">輸出：</string>
-    <string name="load_adb_failed">ADB 服務載入失敗！</string>
+    <string name="load_adb_failed">ADB 服務載入失敗</string>
     <string name="load_adb_success">ADB 服務載入成功</string>
     <string name="loading">載入中...</string>
     <string name="loading_adb">正在載入 ADB 服務...</string>
     <string name="login">登入</string>
-    <string name="login_expired">登入已經失效，請重新登入！</string>
+    <string name="login_expired">登入已經失效，請重新登入</string>
     <string name="login_register">登入/註冊</string>
-    <string name="login_successfully">登入成功！</string>
+    <string name="login_successfully">登入成功</string>
     <string name="logout">登出</string>
-    <string name="logouted">已登出！</string>
+    <string name="logouted">已登出</string>
     <string name="menu_about">關於</string>
     <string name="menu_battery_tool">電池工具</string>
     <string name="menu_deviceInfo">手錶資訊</string>
@@ -176,13 +174,13 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="menu_other_tool">其它工具</string>
     <string name="menu_screen_tool">螢幕工具</string>
     <string name="mkdir">新增資料夾</string>
-    <string name="mkdir_failed">新增資料夾失敗！</string>
+    <string name="mkdir_failed">新增資料夾失敗</string>
     <string name="mkdir_message">輸入資料夾名稱：</string>
-    <string name="mkdir_successuflly">新增資料夾成功！</string>
+    <string name="mkdir_successuflly">新增資料夾成功</string>
     <string name="model">型號：</string>
     <string name="more_actions">更多操作</string>
-    <string name="move_failed">移動失敗！</string>
-    <string name="move_successfully">移動成功！</string>
+    <string name="move_failed">移動失敗</string>
+    <string name="move_successfully">移動成功</string>
     <string name="nav_header_subtitle">專為 WearOS 手錶打造的搞機軟體</string>
     <string name="nav_header_title">WearOS 工具箱</string>
     <string name="negative">拒絕</string>
@@ -207,11 +205,11 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="original_resolution">原始解析度：</string>
     <string name="package_name">Package 名稱：</string>
     <string name="password">密碼</string>
-    <string name="password_changed">密碼已修改！請重新登入！</string>
+    <string name="password_changed">密碼已修改，請重新登入</string>
     <string name="please_allow_adb_request">請允許 ADB 授權請求</string>
-    <string name="please_connect_device">請先連線您的手錶！</string>
+    <string name="please_connect_device">請先連線您的手錶</string>
     <string name="please_give_storage_permission">請手動授予應用程式儲存權限！</string>
-    <string name="please_input_email">請在“電子信箱”輸入框內輸入您的信箱！</string>
+    <string name="please_input_email">請在“電子信箱”輸入框內輸入您的信箱</string>
     <string name="please_input_value">請輸入 Overscan 值！</string>
     <string name="please_select_file">請先選擇 APK 檔案</string>
     <string name="please_wait">請稍等…</string>
@@ -221,21 +219,18 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="question2">Q2：如何找到我的 IP 和 Port？</string>
     <string name="ram_utilization">RAM 使用率</string>
     <string name="rename">重新命名</string>
-    <string name="rename_failed">重新命名失敗！</string>
+    <string name="rename_failed">重新命名失敗</string>
     <string name="rename_message">請輸入新名稱：</string>
-    <string name="rename_successfully">重新命名成功！</string>
-    <string name="request_permission">"為了讓這個功能正常運作，我們需要請求以下的權限：
-
-1. 儲存權限：
- “安裝 APK”功能中的“選擇 APK 檔案”和“檔案管理”中的“上傳/下載文件”需要能正常讀取您的內部儲存空間"</string>
+    <string name="rename_successfully">重新命名成功</string>
+    <string name="request_permission">為了讓這個功能正常運作，我們需要請求以下的權限：\n    儲存權限：\n     安裝 APK”功能中的“選擇 APK 檔案”和“檔案管理”中的“上傳/下載文件”需要能正常讀取您的內部儲存空間</string>
     <string name="resolution">解析度</string>
     <string name="restore">還原</string>
     <string name="restore_dpi">還原 DPI</string>
-    <string name="restore_failed">還原失敗！</string>
+    <string name="restore_failed">還原失敗</string>
     <string name="restore_overscan">還原 Overscan</string>
     <string name="restore_resolution">還原解析度</string>
     <string name="restore_status">還原狀態</string>
-    <string name="restore_successfully">還原成功！</string>
+    <string name="restore_successfully">還原成功</string>
     <string name="screen_info">螢幕資訊</string>
     <string name="screenshot">螢幕截圖</string>
     <string name="select">選擇</string>
@@ -243,7 +238,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="shot">截圖</string>
     <string name="signup">註冊</string>
     <string name="sn">序號：</string>
-    <string name="successful_restart">重新啟動成功！</string>
+    <string name="successful_restart">重新啟動成功</string>
     <string name="successful_screenshot">截圖已經儲存到內部儲存空間 Pictures/Wearosbox 資料夾下</string>
     <string name="temperature">溫度：</string>
     <string name="to_9008">9008 模式</string>
@@ -262,16 +257,16 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
 發布日期：%2$s
 
 要立即下載更新嗎？"</string>
-    <string name="upload_failed">上傳失敗！</string>
+    <string name="upload_failed">上傳失敗</string>
     <string name="upload_file">上傳檔案</string>
     <string name="upload_floder">上傳資料夾</string>
     <string name="upload_muisc_to_wrist_music">上傳音樂到抬腕聽歌</string>
-    <string name="upload_successfully">上傳成功！</string>
+    <string name="upload_successfully">上傳成功</string>
     <string name="usb_charge">USB 充電</string>
     <string name="username">使用者名稱</string>
-    <string name="username_is_taken">註冊失敗！這個使用者已被使用</string>
-    <string name="username_password_mismatch">登入失敗！使用者名稱與與密碼不相符！</string>
-    <string name="verify_email_send">註冊成功！請前往信箱驗證帳號</string>
+    <string name="username_is_taken">註冊失敗：這個使用者已被使用</string>
+    <string name="username_password_mismatch">登入失敗：使用者名稱與與密碼不相符</string>
+    <string name="verify_email_send">註冊成功。請前往信箱驗證帳號</string>
     <string name="version_type">版本類型：%1$s</string>
     <string name="warning">警告</string>
     <string name="website">官方網站</string>
@@ -291,11 +286,11 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="is_show_app_name_hint">是否要顯示出應用程式的名稱？預設為不顯示，若要顯示請點“確定”\n\n註：\n1. 顯示應用程式名稱會拉長列表載入的速度（顯示名稱為不顯示名稱時的三倍時間）\n2. 您可以在“設定”中調整這個選項</string>
     <string name="freeze_app">停用應用程式</string>
     <string name="unfreeze_app">啟用應用程式</string>
-    <string name="freeze_successful">停用成功!</string>
-    <string name="unfreeze_successful">啟用成功!</string>
-    <string name="freeze_failed">停用失敗!</string>
-    <string name="unfreeze_failed">啟用失敗!</string>
-    <string name="cant_downgrade">不允許將應用程式降版本!</string>
+    <string name="freeze_successful">停用成功</string>
+    <string name="unfreeze_successful">啟用成功</string>
+    <string name="freeze_failed">停用失敗</string>
+    <string name="unfreeze_failed">啟用失敗</string>
+    <string name="cant_downgrade">不允許將應用程式降版本</string>
     <string name="app_classification">應用程式分類:</string>
     <string name="watchface">錶盤</string>
     <string name="game">遊戲</string>
@@ -314,7 +309,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="missing_shared_lib" >Android 系統缺少必要的函式庫，不支援這個應用程式</string>
     <string name="file_not_apk" >您選擇的不是 APK 檔案</string>
     <string name="system_internal_error" >系統內部異常，請稍後重新嘗試</string>
-    <string name="apk_test_only" >這個安裝包僅供測試用途，請手動使用指令安裝：\\nadb install -t\\n 或是編譯時使用 Release 建構檔案。</string>
+    <string name="apk_test_only" >這個安裝包僅供測試用途，請手動使用指令安裝：\\nadb install -t\\n 或是編譯時使用 Release 建構檔案</string>
     <string name="question3">Q3：設定中的 ADB 版本有哪裡不一樣的?</string>
     <string name="china">中國大陸</string>
     <string name="taiwan_area">臺灣地區</string>
@@ -325,4 +320,5 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="connect_time_out">連線超時，請檢查IP位址、手錶與手機的網路設定</string>
     <string name="adb_missing">無法複製ADB核心元件，可能是系統不支援，請聯絡開發人員。</string>
     <string name="no_route_to_host">伺服器沒有回應，這有可能是WiFi路由器（也有可能是手機系統）引起的問題</string>
+    <string name="user_info_missing" />
 </resources>
