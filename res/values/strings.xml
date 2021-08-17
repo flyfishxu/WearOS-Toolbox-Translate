@@ -336,5 +336,4 @@
     <string name="user_info_missing">用户名和密码不能为空</string>
     <string name="download_failed_skip">Download failed.\nSome files was skippped by your OS.</string>
     <string name="upload_file_successfully">Upload file successfully.</string>
-    <string name="upload_file_successfully">Upload failed.\nSome files was skippped by your OS.</string>
 </resources>
