@@ -1,5 +1,5 @@
 <resources>
-    <string name="changelog">WearOS Toolbox 1.5.6 Stable changelog:\n- Improve ADB Binaries importing\n- Improve UI\n- Bug fixes\n- Supported pm install\n- Added Open Source Lisenses page\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS Toolbox 1.5.6 Stable changelog:\n- Improve ADB Binaries importing\n- Improve UI\n- Bug fixes\n- Supported pm install\n- Added Open Source Licenses page\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="app_name">WearOS Toolbox</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="menu_home">Home</string>
@@ -79,11 +79,11 @@
     <string name="apply_dpi">Apply DPI</string>
     <string name="restore_dpi">Restore DPI</string>
     <string name="apply_failed">Failed to apply.</string>
-    <string name="enter_correct_resolution">Failed: Invaild resolution.</string>
+    <string name="enter_correct_resolution">Failed: Invalid resolution.</string>
     <string name="apply_successfully">Apply successfully.</string>
     <string name="restore_successfully">Restore successfully.</string>
     <string name="restore_failed">Failed to restore.</string>
-    <string name="enter_correct_dpi">Failed: Invaild DPI.</string>
+    <string name="enter_correct_dpi">Failed: Invalid DPI.</string>
     <string name="battery_info">Watch Battery</string>
     <string name="charge_status">Charge Status:</string>
     <string name="battery_level">Battery Level:</string>
@@ -253,7 +253,7 @@
     <string name="shell">ADB Terminal</string>
     <string name="exec">Execute</string>
     <string name="donate_q4">How to upgrade?</string>
-    <string name="donate_a4">Considering to donate us. Minimal amount is CNY 6.99. Please enter your Emali in remarks column.\nContact us if your account is not upgraded automatically in 24 hours. QQ: 1901538716</string>
+    <string name="donate_a4">Considering to donate us. Minimal amount is CNY 6.99. Please enter your Email in remarks column.\nContact us if your account is not upgraded automatically in 24 hours. QQ: 1901538716</string>
     <string name="get_donated_version">Upgrade to Donated Version</string>
     <string name="how_to_get_donated_version">How to upgrade?</string>
     <string name="havent_donated">Sorry, this feature requires upgraded version. For more details, please check \"Donate Us\" page.</string>
@@ -323,17 +323,19 @@
     <string name="qq_group">QQ Group</string>
     <string name="telegram" translatable="false">Telegram</string>
     <string name="contact_us">Contact Us</string>
-    <string name="adb_not_supported">Current ADB Binary version is not available on your OS. Plases change it on Settings.\nAlso try to force stop WearOS Toolbox, especially having changed ADB version.</string>
+    <string name="adb_not_supported">Current ADB Binary version is not available on your OS. Pleases change it on Settings.\nAlso try to force stop WearOS Toolbox, especially having changed ADB version.</string>
     <string name="not_change">Keep current version</string>
-    <string name="ip_mistype">IP address is invaild. Check if there is a typo in it.</string>
+    <string name="ip_mistype">IP address is invalid. Check if there is a typo in it.</string>
     <string name="libadb39_temp" translatable="false">请清除数据或在右上角切换 ADB 版本</string>
     <string name="install_command">Choose apk install command:</string>
     <string name="open_source">License</string>
     <string name="connect_failed">Failed to connect.</string>
-    <string name="upload_failed_skip">Upload failed.\nSome files was skippped by your OS.</string>
+    <string name="upload_failed_skip">Upload failed.\nSome files was skipped by your OS.</string>
     <string name="question4">Q4: Connect status always offline but cannot grant debug permission?</string>
     <string name="answer4">Please switch to another ADB version in App Settings and restart your watch.</string>
-    <string name="download_failed_skip">Download failed.\nSome files was skippped by your OS.</string>
+    <string name="download_failed_skip">Download failed.\nSome files was skipped by your OS.</string>
     <string name="upload_file_successfully">Upload file successfully.</string>
     <string name="user_info_missing">Please provide Email and password.</string>
+    <string name="darkmode">Enable Dark Mode</string>
+    <string name="successful_darkmode">Dark mode enabled.</string>
 </resources>

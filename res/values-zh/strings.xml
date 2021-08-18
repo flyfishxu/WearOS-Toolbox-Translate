@@ -322,4 +322,6 @@
     <string name="user_info_missing">邮箱地址和密码不能为空</string>
     <string name="download_failed_skip">部分文件无法下载，已被系统跳过，请检查日志。</string>
     <string name="upload_file_successfully">上传文件成功</string>
+    <string name="darkmode">切换到深色主题</string>
+    <string name="successful_darkmode">深色主题启用成功</string>
 </resources>
