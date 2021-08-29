@@ -321,4 +321,10 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="restore_successfully">還原成功</string>
     <string name="delete_failed">刪除成功</string>
     <string name="move_failed">移動失敗</string>
+    <string name="changelog">"WearOS 工具箱 1.5.6 穩定版 的更新內容\n- 界面優化\n- 支持多種 APK 安裝方式，以適配部分特殊手錶\n- 修復 APK 安裝問題\n- 用戶登錄優化\n- 修復部分 ADB 版本下無法使用文件管理上傳與下載功能的問題\n- ADB 版本切換邏輯優化\n- 公開 開放源代碼許可證\n- 支持手錶切換到夜間模式\nWearOS 工具箱正式開放多語言支持，如果你想為 WearOS 工具箱的多語言支持貢獻自己的一份力量，歡迎 Fork 倉庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate "</string>
+    <string name="adb_not_supported">"此 ADB 版本不支持您的系統。請按右上角進入設置並嘗試切換版本。若均無效請聯繫開發者。 若您剛才切換了 ADB 版本，有可能是因為部分系統（特別是華為設備）不支持自動切換功能，請嘗試強制停止工具箱後再試。 "</string>
+    <string name="open_source">"開放源代碼許可 "</string>
+    <string name="not_change">"ADB 版本保持不變 "</string>
+    <string name="ip_mistype">"輸入的 IP 地址或域名有誤 "</string>
+    <string name="install_command">選擇 APK 安裝方法</string>
 </resources>
