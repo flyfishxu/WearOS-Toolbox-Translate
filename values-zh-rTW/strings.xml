@@ -320,11 +320,24 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="connect_time_out">連線超時，請檢查IP位址、手錶與手機的網路設定</string>
     <string name="adb_missing">無法複製ADB核心元件，可能是系統不支援，請聯絡開發人員。</string>
     <string name="no_route_to_host">伺服器沒有回應，這有可能是WiFi路由器（也有可能是手機系統）引起的問題</string>
-    <string name="user_info_missing" />
-    <string name="changelog">"WearOS 工具箱 1.5.6 穩定版 的更新內容\n- 界面優化\n- 支持多種 APK 安裝方式，以適配部分特殊手錶\n- 修復 APK 安裝問題\n- 用戶登錄優化\n- 修復部分 ADB 版本下無法使用文件管理上傳與下載功能的問題\n- ADB 版本切換邏輯優化\n- 公開 開放源代碼許可證\n- 支持手錶切換到夜間模式\nWearOS 工具箱正式開放多語言支持，如果你想為 WearOS 工具箱的多語言支持貢獻自己的一份力量，歡迎 Fork 倉庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate "</string>
+    <string name="user_info_missing" >郵箱地址和密碼不能為空</string>
+    <string name="changelog">WearOS 工具箱 1.6.0 穩定版 的更新內容\n\n-加快了“應用庫”的刷新速度\n-提升了應用性能\n-修復了“應用庫”獲取圖片的致命問題\n-修復了“主頁”斷開連接設備後設備狀態不會刷新的問題\n- 支持手錶相互切換夜間模式\n\nWearOS 工具箱正式開放多語言支持，如果你想為 WearOS 工具箱的多語言支持貢獻自己的一份力量，歡迎 Fork 倉庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="adb_not_supported">"此 ADB 版本不支持您的系統。請按右上角進入設置並嘗試切換版本。若均無效請聯繫開發者。 若您剛才切換了 ADB 版本，有可能是因為部分系統（特別是華為設備）不支持自動切換功能，請嘗試強制停止工具箱後再試。 "</string>
     <string name="open_source">"開放源代碼許可 "</string>
     <string name="not_change">"ADB 版本保持不變 "</string>
     <string name="ip_mistype">"輸入的 IP 地址或域名有誤 "</string>
     <string name="install_command">選擇 APK 安裝方法</string>
+    <string name="answer4">"請嘗試在工具箱設置切換 ADB 版本，然後重啟手錶。 "</string>
+    <string name="question4">"Q4：連接狀態一直顯示離線，手錶卻沒有彈出授權提示？ "</string>
+    <string name="upload_failed_skip">"部分文件無法上傳，已被系統跳過，請檢查日誌。 "</string>
+    <string name="darkmode_info">"切換成功後，請重啟手錶以生效。華為手錶請勿切換到深色主題，將導致系統界面錯誤，請切換回日間模式。 "</string>
+    <string name="darkmode_enable">深色主題</string>
+    <string name="successful_darkmode_disable">日間模式啟用成功</string>
+    <string name="darkmode_disable">日間模式</string>
+    <string name="login_empty">用戶名密碼不能為空</string>
+    <string name="successful_darkmode">深色主題啟用成功</string>
+    <string name="darkmode">切換深色主題</string>
+    <string name="upload_file_successfully">上傳文件成功</string>
+    <string name="download_failed_skip">部分文件無法下載，已被系統跳過，請檢查日誌。</string>
+    <string name="thanks_list_title">"鳴謝名單 "</string>
 </resources>

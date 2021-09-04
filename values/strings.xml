@@ -1,7 +1,6 @@
 <resources>
-    <string name="changelog">WearOS Toolbox 1.5.6 Stable changelog:\n- Improve ADB Binaries importing\n- Improve UI\n- Bug fixes\n- Supported pm install\n- Added Open Source Licenses page\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS Toolbox 1.6.0 Stable changelog:\n\n- Improved UI experience and speed\n- Enahanced App Store network module\n- Bug fixes\n- DarkMode switch for WearOS devices\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="app_name">WearOS Toolbox</string>
-    <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="menu_home">Home</string>
     <string name="menu_install_apk">Install APK</string>
     <string name="connect">Connect</string>
@@ -336,7 +335,13 @@
     <string name="download_failed_skip">Download failed.\nSome files was skipped by your OS.</string>
     <string name="upload_file_successfully">Upload file successfully.</string>
     <string name="user_info_missing">Please provide Email and password.</string>
-    <string name="darkmode">Enable Dark Mode</string>
+    <string name="darkmode">Darkmode</string>
     <string name="successful_darkmode">Dark mode enabled.</string>
     <string name="login_empty">Username or pwd cannot be empty.</string>
+    <string name="darkmode_disable">Disable</string>
+    <string name="successful_darkmode_disable">Dark mode disabled.</string>
+    <string name="darkmode_enable">Enable</string>
+    <string name="darkmode_info">Reboot to take effort. Plus, it\'s not available on Huawei devices bucause it will cause UI bugs.</string>
+    <string name="thanks_list">Special thanks: ChenHe\n\nTechnical assistance: ChenHe\nFunding Sponsor: 明风の岚\nDesigner: Borealis404\n\nTranslation contribution:\nEnglish: Official\n中文简体: Official\n中文繁体（台湾）: SHXJ\nEspañol: Sergio</string>
+    <string name="thanks_list_title">Thanks List</string>
 </resources>

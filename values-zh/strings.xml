@@ -123,7 +123,7 @@
     <string name="warning">警告</string>
     <string name="please_give_storage_permission">请手动授予程序储存权限！</string>
     <string name="error">错误</string>
-    <string name="changelog">WearOS 工具箱 1.5.6 稳定版 的更新内容\n- 界面优化\n- 支持多种 APK 安装方式，以适配部分特殊手表\n- 修复 APK 安装问题\n- 用户登录优化\n- 修复部分 ADB 版本下无法使用文件管理上传与下载功能的问题\n- ADB 版本切换逻辑优化\n- 公开 开放源代码许可证\n- 支持手表切换到夜间模式\nWearOS 工具箱正式开放多语言支持，如果你想为 WearOS 工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS 工具箱 1.6.0 稳定版 的更新内容\n\n-加快了“应用库”的刷新速度\n-提升了应用性能\n-修复了“应用库”获取图片的致命问题\n-修复了“主页”断开连接设备后设备状态不会刷新的问题\n- 支持手表相互切换夜间模式\nWearOS 工具箱正式开放多语言支持，如果你想为 WearOS 工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="menu_other_tool">其它工具</string>
     <string name="normal_reboot">正常重启</string>
     <string name="to_fastboot">Fastboot 模式</string>
@@ -322,7 +322,13 @@
     <string name="user_info_missing">邮箱地址和密码不能为空</string>
     <string name="download_failed_skip">部分文件无法下载，已被系统跳过，请检查日志。</string>
     <string name="upload_file_successfully">上传文件成功</string>
-    <string name="darkmode">切换到深色主题</string>
+    <string name="darkmode">切换深色主题</string>
     <string name="successful_darkmode">深色主题启用成功</string>
-    <string name="login_empty">用户名密码不能为空。</string>
+    <string name="login_empty">用户名密码不能为空</string>
+    <string name="darkmode_disable">日间模式</string>
+    <string name="successful_darkmode_disable">日间模式启用成功</string>
+    <string name="darkmode_enable">深色主题</string>
+       <string name="darkmode_info">切换成功后，请重启手表以生效。华为手表请勿切换到深色主题，将导致系统界面错误，请切换回日间模式。</string>
+    <string name="thanks_list_title">鸣谢名单</string>
+    <string name="thanks_list">特别鸣谢：晨鹤\n\n技术帮助：晨鹤\n资金赞助：明风の岚\n设计师：Borealis404\n\n翻译贡献：\nEnglish：官方\n中文简体: 官方\n中文繁体（台湾）：SHXJ\nEspañol：Sergio</string>
 </resources>
