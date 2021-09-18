@@ -1,17 +1,13 @@
 <resources>
-    <string name="changelog">WearOS Toolbox 1.5.6 Estable Historico de cambios:\n- Mejorada la importación de ADB Binarios\n- Mejoras en UI\n- Arreglados pequeños fallos\n- Soporte para pm install\n- Añadida página de Licencias de Código Abierto\nAyúdanos a traducir WearOS Toolbox a tu idioma. Ahora fork y pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="app_name">WearOS Toolbox</string>
     <string name="menu_home">Inicio</string>
     <string name="menu_install_apk">Instalar APK</string>
     <string name="connect">Conectar</string>
-    <string name="ip_textView_hint">IP del dispositivo (IP:Port)</string>
     <string name="please_wait">Cargando..</string>
     <string name="connecting">Conectando..</string>
     <string name="loading_adb">Arrancando el servicio ADB..</string>
     <string name="load_adb_success">Servicio ADB iniciado.</string>
     <string name="load_adb_failed">Fallo al iniciar servicio ADB.</string>
-    <string name="begin">Get Started</string>
-    <string name="connect_success">Conectado OK.</string>
     <string name="nav_header_title">WearOS Toolbox</string>
     <string name="action_exit">Salir</string>
     <string name="nav_header_subtitle">Una herramienta para geeks de dispositivos WearOS</string>
@@ -72,7 +68,6 @@
     <string name="change_resolution">Cambiar Resolución:</string>
     <string name="x" translatable="false">X</string>
     <string name="apply_resolution">Aplicar Resolución</string>
-    <string name="restore_resolution">Restaurar a config por defecto</string>
     <string name="change_dpi">Cambiar DPIs:</string>
     <string name="new_dpi">Nuevos DPIs</string>
     <string name="apply_dpi">Aplicar DPIs</string>
@@ -91,8 +86,6 @@
     <string name="ac_charge">Carga AC</string>
     <string name="usb_charge">Carga USB</string>
     <string name="wireless_charge">Carga Wireless</string>
-    <string name="discharge">Descarga</string>
-    <string name="healthy">En buen estado</string>
     <string name="unhealthy">En deterioro</string>
     <string name="battery_health">Salud de la batería:</string>
     <string name="battery_type">Tipo de batería:</string>
@@ -105,7 +98,6 @@
     <string name="restore">Restaurar</string>
     <string name="about">Una app para dispositivos WearOS, basada en ADB (Android Debug Bridge).\n\nFeatures: \n1. Install APK: You can install any 3rd-party apks for WearOS.\n2. Screen Tool:  Modify your smartwatches\' screen specifications, currently supported DPI and Resolution customize.\n3. Battery Tool: Check device\'s battery healthy and voltage and battery capacity and so on.\n4. App Manager: All in one tools to manage installed apps.\n5. File Manager: Upload/Download files to smartwatches.\n6. ADB Terminal: Directly run shell commands on your watch.\n\nIt\'s not our final project, more features will be available in the near future.\nInstall WearOS for Windows in your PC for better experience.\nFeel free to join our QQ group: 956029774 for more information or feedback bugs.</string>
     <string name="device_status">Estado del dispositivo:</string>
-    <string name="battery_power">Capacidad de la batería</string>
     <string name="app_manager">Gestor de Apps</string>
     <string name="uninstall_app">Desinstalar</string>
     <string name="force_stop">Forzar cierre</string>
@@ -124,14 +116,10 @@
     <string name="warning">Aviso!</string>
     <string name="please_give_storage_permission">Por favor, concede permiso de almacenamiento en la configuración.</string>
     <string name="error">Error</string>
-    <string name="menu_other_tool">Advanzado</string>
     <string name="normal_reboot">Reinicio normal</string>
     <string name="to_fastboot">Reinicio a Fastboot</string>
-    <string name="to_recovery">Reinicio al modo Recovery</string>
-    <string name="to_9008">Reinicio a 9008</string>
     <string name="advanced_reboot">Reinicio avanzado</string>
     <string name="screenshot">Pantallazo</string>
-    <string name="shot">Hacer un pantallazo</string>
     <string name="successful_restart">El dispositivo se está reiniciando.</string>
     <string name="please_allow_adb_request">Por favor, concede permisos ADB.</string>
     <string name="successful_screenshot">Pantallazo guardado en \"/sdcard/Pictures/Wearosbox\"</string>
@@ -154,7 +142,6 @@
     <string name="upload_file">Subir un archivo</string>
     <string name="operation">Operación</string>
     <string name="mkdir_message">Escribe el nombre de carpeta:</string>
-    <string name="mkdir_successuflly">Carpeta creada OK.</string>
     <string name="mkdir_failed">Fallo al crear carpeta.</string>
     <string name="copy_cut_hint">Haz tap en el butón de pegar.</string>
     <string name="move_successfully">Movido correctamente.</string>
@@ -166,21 +153,16 @@
     <string name="download_file_successfully">Descargado correctamente.</string>
     <string name="download_file_failed">Fallo al descargar.</string>
     <string name="download_file">Descargar</string>
-    <string name="question2">Q2: ¿Cómo encontrar la IP y el puerto?</string>
-    <string name="question1">Q1: ¿Cómo habilitar ADB Debugging?</string>
-    <string name="answer1_2">2. Puedes encontar esta opción en el menú principal de los Ajustes de la app.</string>
-    <string name="answer1_3">3. Haz tap para habilitar ambas opciones \"ADB debugging\" y Debug over Wi-Fi\". Actualmente no funciona la conexión mediante Bluetooth.</string>
     <string name="answer2_1">1. Conecta a una red Wi-Fi. Para una mejor experiencia, se recomienda apagar el Bluetooth.</string>
     <string name="answer2_2">2. Haciendo tap en el nombre de tu Wi-Fi, verás la dirección IP.</string>
-    <string name="answer2_3">3. El número de puerto por defecto es 5555. Si no funciona, ve a Ajustes>Developer Options>ADB Over Wi-Fi para ver si en tu reloj se puede configurar el número de puerto.\n\nSi tu smartwatch no posee conexión Wi-FI, por favor espere a futuras actualizaciones para conectar vía Bluetooth.</string>
+    <string name="answer2_3">3. El número de puerto por defecto es 5555. Si no funciona, ve a Ajustes>Developer Options>ADB Over Wi-Fi para ver si en tu reloj se puede configurar el número de puerto.\n\nSi tu smartwatch no posee conexión Wi-FI, por favor espere a futuras actualizaciones para conectar via Bluetooth.</string>
     <string name="answer1_1">1. Ve a Settings>System>About, haz tap en "Build Number" repetidamente más de 7 veces.</string>
     <string name="q_a">Centro de ayuda</string>
-    <string name="first_time_message">Hola chavalo! Te recomendamos que leas el \"Help Center\" antes de usar la app. Disfrútala!</string>
-    <string name="request_permission">Para un correcto funcionamiento, se necesitan los siguientes permisos de tu sistema:\n\n1. Permisos de Almacenaje:\n     \"Select APK File\" en \"Install APK\" función y \"Upload/Download File\" en \"File Manager\" necesita acceder al directorio del disco.</string>
+   <string name="request_permission">Para un correcto funcionamiento, se necesitan los siguientes permisos de tu sistema:\n\n1. Permisos de Almacenaje:\n     \"Select APK File\" en \"Install APK\" función y \"Upload/Download File\" en \"File Manager\" necesita acceder al directorio del disco.</string>
     <string name="accept">Aceptar</string>
     <string name="negative">Cancelar</string>
     <string name="clean_data_successfully">Limpiado correctamente.</string>
-    <string name="art_compile">Compilación ART</string> 
+    <string name="art_compile">Compilación ART</string>
     <string name="current_path">Directorio actual:</string>
     <string name="donate_us">Donaciones</string>
     <string name="donate_q1">¿Por qué?</string>
@@ -199,11 +181,9 @@
     <string name="failed_to_check_update">Fallo al comprobar actualizaciones.\n%1$s</string>
     <string name="checking_update">Comprobando..</string>
     <string name="current_version">Versión: %1$s</string>
-    <string name="no_update_found">Estás en la última versión disponible.</string>
     <string name="donate_q2">¿Dónde?</string>
     <string name="art_compile_successfully">Compilado correctamente.</string>
     <string name="art_compile_failed">Fallo al compilar.</string>
-    <string name="app_store">App Store</string>
     <string name="app_introduction">Introducción</string>
     <string name="hot_app">Apps de moda</string>
     <string name="downloading_apk">Descargando..</string>
@@ -252,30 +232,16 @@
     <string name="exec">Ejecutar</string>
     <string name="donate_q4">¿Cómo actualizar?</string>
     <string name="donate_a4">Si estás considerando hacer una donación la cantidad mínima son CNY 6.99. Por favor, pon tu correo en la columna de Notas.\nContáctanos si tu cuenta no se ha actualizado automaticamente en 24 horas. QQ: 1901538716</string>
-    <string name="get_donated_version">Actualizar a la versión patrocinada</string>
-    <string name="how_to_get_donated_version">¿Cómo actualizar?</string>
-    <string name="havent_donated">Lo sentimos, esta característica requiere de una versión patrocinada. Para más detalles, puedes ver la página de \"Donate Us\".</string>
-    <string name="developer">Créditos:</string>
-    <string name="qq_files_recv_dir">Diccionario archivos recibidos de QQ</string>
+  <string name="how_to_get_donated_version">¿Cómo actualizar?</string>
+   <string name="developer">Créditos:</string>
     <string name="internal_storage_dir">Almacenamiento interno</string>
     <string name="download_dir">Descargas</string>
-    <string name="wrist_music_dir">Diccionario de Wrist Music</string>
-    <string name="choose_dir">Elige diccionario</string>
     <string name="upload_muisc_to_wrist_music">Subir Música a la app Wrist Music</string>
     <string name="edit_screen_overscan">Editar Overscan de pantalla:</string>
-    <string name="overscan_x" translatable="false">Overscan X</string>
-    <string name="overscan_y" translatable="false">Overscan Y</string>
     <string name="apply_overscan">Aplicar Overscan</string>
     <string name="restore_overscan">Restaurar Overscan</string>
-    <string name="please_input_value">Por favor, pon un valor correcto de overscan!</string>
     <string name="send_vairy_email">Enviar ahora</string>
     <string name="app_name_fetch_failed">Fallo al leer nombre de aplicación</string>
-
-    <!-- Preference Titles -->
-
-    <!-- Messages Preferences -->
-
-    <!-- Sync Preferences -->
     <string name="remember_device_address">Recordar dirección IP</string>
     <string name="load_app_name">Leyendo nombre de aplicación.. Lleva algo de tiempo, puede sentarse y echar un café..</string>
     <string name="adb_version">Versión ADB Binary</string>
@@ -310,23 +276,20 @@
     <string name="apk_test_only">APK de pruebas solamente. Por favor, instale la app mediante términal y comandos\nadb install -t\nor Release the APK.</string>
     <string name="question3">Q3: ¿Cúales son las diferencias entre las versiones ADB?</string>
     <string name="answer3">Teóricamente, a mayor versión de Android, versión más reciente de ADB.\nSi tiene problemas de conexión, cambie a otro binario ADB.\nADB compilado por Surge1223 @ xda-developers</string>
-    <string name="no_route_to_host">No hay ruta a destino: Si la dirección ip es correcta, el fallo puede ser causado por su router Wifi o su teléfono. Los siguientes métodos pueden resolver el problema.\n1. Comprueba otra vez la dirección IP de tu dispositivo (fallo normal la mayoría de las veces :p)\n2. Reinicia tu router wifi, teléfono y reloj.\n3. Conecta tu reloj a otra red Wi-Fi o hotspot\n4. Deshabilita AP Isolation.\n5. Cambia a otra versión de Binario ADB.</string>
+    <string name="no_route_to_host">No hay ruta a destino: Si la dirección ip es correcta, el fallo puede ser causado por su router Wifi o su teléfono. Los siguientes métodos pueden resolver el problema.\n1. Comprueba otra vez la dirección IP de tu dispositivo (fallo normal la mayoria de las veces :p)\n2. Reinicia tu router wifi, teléfono y reloj.\n3. Conecta tu reloj a otra red Wi-Fi o hotspot\n4. Deshabilita AP Isolation.\n5. Cambia a otra versión de Binario ADB.</string>
     <string name="adb_missing">ADB binary is missing. Failed to connect to your device.\\n Please contact to developers.</string>
     <string name="connect_time_out">Connection timed out. Por favor, compruebe la dirección IP y la red entre los dispositivos.</string>
     <string name="connect_refused">Connection refused. Por favor, habilite ADB Debugging en los ajustes de Developer del reloj o revoke la conexión e intente de nuevo.</string>
     <string name="china">China Continental</string>
     <string name="taiwan_area">Taiwan, China</string>
     <string name="other_regions">Otras regiones</string>
-    <string name="line" translatable="false">LINE</string>
     <string name="qq_group">Grupo QQ</string>
-    <string name="telegram" translatable="false">Telegram</string>
     <string name="contact_us">Contáctanos</string>
-    <string name="adb_not_supported">La versión Bianaria ADB no está disponible en tu sistema. Cámbia de versión en los Ajustes.\nTambién puedes intentar a forzar el cierre de WearOS Toolbox, habiendo cambiado la versión ADB.</string>
+    <string name="adb_not_supported">La versión Bianaria ADB no está disponible en tu sistema. Cámbia de versión en los Ajustes.\nTambien puedes intentar a forzar el cierre de WearOS Toolbox, habiendo cambiado la versión ADB.</string>
     <string name="not_change">Mantener la version actual.</string>
     <string name="ip_mistype">La dirección IP no es válida. Comprueba si hay algún número mal, espacio o punto no escrito.</string>
     <string name="libadb39_temp" translatable="false">Por favor, borra datos o cambia en la esquina superior derecha, la versión ADB</string>
     <string name="install_command">Elige comando para instalar apk:</string>
-    <string name="open_source">Licencia</string>
     <string name="connect_failed">Fallo al conectar.</string>
     <string name="upload_failed_skip">Fallo en la subida.\nAlgunos archivos han sido saltados por el sistema.</string>
     <string name="question4">Q4: Connect status always offline but cannot grant debug permission?</string>
@@ -337,4 +300,32 @@
     <string name="darkmode">Habilitar modo oscuro</string>
     <string name="successful_darkmode">Modo oscuro habilitado.</string>
     <string name="login_empty">Los campos de usuario o contraseña no pueden estar vacios.</string>
+    <string name="changelog">WearOS Toolbox 1.6 estable. Historico de cambios:\n- Mejorada la importación de ADB Binarios\n- Mejoras en UI\n- Arreglados pequeños fallos\n- Soporte para pm install\n- Añadida página de Licencias de Código Abierto\nAyúdanos a traducir WearOS Toolbox a tu idioma. Últimos idomas añadidos fork, pr y español: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="ip_textView_hint">IP del dispositivo (IP:Puerto)</string>
+    <string name="begin">¡Comencemos!</string>
+    <string name="restore_resolution">Restaurar resolución</string>
+    <string name="connect_success">Conectado correctamente.</string>
+    <string name="battery_power">Capacidad de batería</string>
+    <string name="discharge">Descargándose</string>
+    <string name="healthy">Buena</string>
+    <string name="menu_other_tool">Avanzado</string>
+    <string name="to_recovery">Reinicio a modo Recovery</string>
+    <string name="to_9008">Reinicio EDL</string>
+    <string name="shot">Hacer pantallazo</string>
+    <string name="question2">2: ¿Cómo encontrar la IP y el puerto?</string>
+    <string name="question1">1: ¿Cómo habilitar ADB Debugging?</string>
+    <string name="answer1_2">2. Se habilitará un nuevo menú en el menú principal de los Ajustes del reloj. "Developer Options"</string>
+    <string name="answer1_3">3. Entra y haz tap para habilitar \"ADB debugg</string>
+    <string name="first_time_message">Hola chaval@! Te recomendamos que leas el \"Help Center\" antes de usar la app. Disfrútala!</string>
+    <string name="no_update_found">Ya tienes la última versión disponible.</string>
+    <string name="app_store">Tienda de apps</string>
+    <string name="mkdir_successuflly">Carpeta creada correctamente.</string>
+    <string name="get_donated_version">Actualizar a la versión de pago</string>
+    <string name="havent_donated">Lo sentimos, esta característica requiere de una versión de pago. Para más detalles, puedes ver la página de \"Donate Us\".</string>
+    <string name="qq_files_recv_dir">Carpeta archivos recibidos de QQ</string>
+    <string name="wrist_music_dir">Carpeta de Wrist Music</string>
+    <string name="choose_dir">Elige Carpeta</string>
+    <string name="please_input_value">Por favor, pon un valor correcto</string>
+    <string name="open_source">Licencias</string>
+    <string name="upload_floder">Subir una carpeta</string>
 </resources>

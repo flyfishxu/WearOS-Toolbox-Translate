@@ -325,7 +325,7 @@
     <string name="adb_not_supported">Current ADB Binary version is not available on your OS. Pleases change it on Settings.\nAlso try to force stop WearOS Toolbox, especially having changed ADB version.</string>
     <string name="not_change">Keep current version</string>
     <string name="ip_mistype">IP address is invalid. Check if there is a typo in it.</string>
-    <string name="libadb39_temp" translatable="false">请清除数据或在右上角切换 ADB 版本</string>
+    <string name="libadb39_temp">Please clear the data or switch the ADB version in the upper right corner</string>
     <string name="install_command">Choose apk install command:</string>
     <string name="open_source">License</string>
     <string name="connect_failed">Failed to connect.</string>

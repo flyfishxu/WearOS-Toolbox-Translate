@@ -331,4 +331,5 @@
        <string name="darkmode_info">切换成功后，请重启手表以生效。华为手表请勿切换到深色主题，将导致系统界面错误，请切换回日间模式。</string>
     <string name="thanks_list_title">鸣谢名单</string>
     <string name="thanks_list">特别鸣谢：晨鹤\n\n技术帮助：晨鹤\n资金赞助：明风の岚\n设计师：Borealis404\n\n翻译贡献：\nEnglish：官方\n中文简体: 官方\n中文繁体（台湾）：SHXJ\nEspañol：Sergio</string>
+    <string name="libadb39_temp">请清除数据或在右上角切换 ADB 版本</string>
 </resources>
