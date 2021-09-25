@@ -39,10 +39,10 @@
     <string name="menu_install_apk">安装 APK</string>
     <string name="application_name">应用名称：</string>
     <string name="application_icon">应用图标</string>
-    <string name="package_name">包名：</string>
-    <string name="app_version">版本：</string>
+    <string name="package_name">包名</string>
+    <string name="app_version">版本</string>
     <string name="choose_apk">选择 APK</string>
-    <string name="install_apk">安装 APK</string>
+    <string name="install_apk">安装</string>
     <string name="layout">输出：</string>
     <string name="no_file">这儿什么都没有</string>
     <string name="select">选择</string>
@@ -118,7 +118,7 @@
     <string name="website">官方网站</string>
     <string name="no_broswer">看起来您没有安装任何浏览器</string>
     <string name="settings">设置</string>
-    <string name="apkSize">APK 大小：</string>
+    <string name="apkSize">近似大小</string>
     <string name="doing">操作中…</string>
     <string name="warning">警告</string>
     <string name="please_give_storage_permission">请手动授予程序储存权限！</string>
@@ -281,7 +281,7 @@
     <string name="freeze_failed">冻结失败</string>
     <string name="unfreeze_failed">解冻失败</string>
     <string name="cant_downgrade">不允许降级操作</string>
-    <string name="app_classification">应用分类：</string>
+    <string name="app_classification">分类</string>
     <string name="watchface">表盘</string>
     <string name="game">游戏</string>
     <string name="tools">工具</string>
@@ -332,4 +332,9 @@
     <string name="thanks_list_title">鸣谢名单</string>
     <string name="thanks_list">特别鸣谢：晨鹤\n\n技术帮助：晨鹤\n资金赞助：明风の岚\n设计师：Borealis404\n\n翻译贡献：\nEnglish：官方\n中文简体: 官方\n中文繁体（台湾）：SHXJ\nEspañol：Sergio</string>
     <string name="libadb39_temp">请清除数据或在右上角切换 ADB 版本</string>
+    <string name="downloads">次下载</string>
+    <string name="about_this_app">关于此应用</string>
+    <string name="application_information">应用程序信息</string>
+    <string name="recommended_apps">推荐应用</string>
+    <string name="not_support_language">抱歉，应用库暂不支持您的语言</string>
 </resources>

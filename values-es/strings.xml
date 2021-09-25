@@ -36,8 +36,8 @@
     <string name="_0" translatable="false">0%</string>
     <string name="application_name">Nombre de la App:</string>
     <string name="application_icon">Icono</string>
-    <string name="package_name">Nombre del paquete:</string>
-    <string name="app_version">Versión:</string>
+    <string name="package_name">Nombre del paquete</string>
+    <string name="app_version">Versión</string>
     <string name="choose_apk">Abrir..</string>
     <string name="install_apk">Instalar APK</string>
     <string name="layout">Log:</string>

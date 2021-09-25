@@ -19,13 +19,13 @@
 WearOS 手錶：TicWatch E2/C2/S2/Pro/Pro3；小米手錶；Moto 360 1代/2代 等等
 Ticwear 手錶：Ticwatch 1；Ticwatch 2；Ticwatch S；Ticwatch E
 OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，若要使用工具箱，建議使用 OTG 的方式連線"</string>
-    <string name="apkSize">APK 大小：</string>
+    <string name="apkSize">近似大小</string>
     <string name="apk_is_damaged">APK 已毀損</string>
     <string name="app_introduction">應用程式簡介</string>
     <string name="app_manager">應用程式管理</string>
     <string name="app_name">WearOS 工具箱</string>
     <string name="app_store">應用程式商店</string>
-    <string name="app_version">版本：</string>
+    <string name="app_version">版本</string>
     <string name="application_icon">應用程式圖示</string>
     <string name="application_name">應用程式名稱：</string>
     <string name="apply">套用</string>
@@ -203,7 +203,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="operation">動作</string>
     <string name="original_dpi">原始 DPI：</string>
     <string name="original_resolution">原始解析度：</string>
-    <string name="package_name">Package 名稱：</string>
+    <string name="package_name">Package 名稱</string>
     <string name="password">密碼</string>
     <string name="password_changed">密碼已修改，請重新登入</string>
     <string name="please_allow_adb_request">請允許 ADB 授權請求</string>
@@ -291,7 +291,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="freeze_failed">停用失敗</string>
     <string name="unfreeze_failed">啟用失敗</string>
     <string name="cant_downgrade">不允許將應用程式降版本</string>
-    <string name="app_classification">應用程式分類:</string>
+    <string name="app_classification">分類</string>
     <string name="watchface">錶盤</string>
     <string name="game">遊戲</string>
     <string name="tools">工具</string>
