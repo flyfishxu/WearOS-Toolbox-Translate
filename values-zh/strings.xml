@@ -123,7 +123,7 @@
     <string name="warning">警告</string>
     <string name="please_give_storage_permission">请手动授予程序储存权限！</string>
     <string name="error">错误</string>
-    <string name="changelog">WearOS 工具箱 1.7.0 稳定版 的更新内容\n\n-重做应用库“应用详情”页\n-修复应用库“应用分类”部分滑动困难的问题\n-应用库新增下载排行\n-优化“黑暗模式”下的色彩和使用体验\n-修复“文件管理”上传/下载应用判断错误的问题\n-“文件管理”新增“编辑文本”功能（仅捐赠版）\n-多处细节优化\n\nWearOS 工具箱正式开放多语言支持，如果你想为 WearOS 工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS 工具箱 1.7.0 稳定版 的更新内容\n\n-重做应用库“应用详情”页\n-修复应用库“应用分类”部分滑动困难的问题\n-应用库新增下载排行\n-优化“黑暗模式”下的色彩和使用体验\n-修复“文件管理”上传/下载应用判断错误的问题\n-“文件管理”新增“编辑文本”功能（仅捐赠版）\n-增加“权限狗激活”功能\n-所有图标矢量化\n-多处细节优化\n\nWearOS 工具箱正式开放多语言支持，如果你想为 WearOS 工具箱的多语言支持贡献自己的一份力量，欢迎 Fork 仓库：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="menu_other_tool">其它工具</string>
     <string name="normal_reboot">正常重启</string>
     <string name="to_fastboot">Fastboot 模式</string>
@@ -343,4 +343,8 @@
     <string name="failed_to_save">保存失败！</string>
     <string name="reject">拒绝</string>
     <string name="the_developer_app">该开发者的应用</string>
+    <string name="sure_to_edit_text">编辑该文件？</string>
+    <string name="activate_permission_dog">激活权限狗</string>
+    <string name="exec_successfully">执行成功！</string>
+    <string name="failed_to_exec">执行失败！</string>
 </resources>

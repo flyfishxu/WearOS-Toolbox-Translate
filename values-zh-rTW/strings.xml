@@ -321,7 +321,7 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="adb_missing">無法複製ADB核心元件，可能是系統不支援，請聯絡開發人員。</string>
     <string name="no_route_to_host">伺服器沒有回應，這有可能是WiFi路由器（也有可能是手機系統）引起的問題</string>
     <string name="user_info_missing" >郵箱地址和密碼不能為空</string>
-    <string name="changelog">WearOS 工具箱 1.6.0 穩定版 的更新內容\n\n-加快了“應用庫”的刷新速度\n-提升了應用性能\n-修復了“應用庫”獲取圖片的致命問題\n-修復了“主頁”斷開連接設備後設備狀態不會刷新的問題\n- 支持手錶相互切換夜間模式\n\nWearOS 工具箱正式開放多語言支持，如果你想為 WearOS 工具箱的多語言支持貢獻自己的一份力量，歡迎 Fork 倉庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS 工具箱 1.7.0 穩定版 的更新內容\n\n-重做應用庫“應用詳情”頁\n-修復應用庫“應用分類”部分滑動困難的問題\n-應用庫新增下載排行\n-優化“黑暗模式”下的色彩和使用體驗\n-修復“文件管理”上傳/下載應用判斷錯誤的問題\n-“文件管理”新增“編輯文本”功能（僅捐贈版）\n-增加“權限狗激活”功能\n-所有圖標矢量化\n-多處細節優化\n\nWearOS 工具箱正式開放多語言支持，如果你想為 WearOS 工具箱的多語言支持貢獻自己的一份力量，歡迎 Fork 倉庫：https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="adb_not_supported">"此 ADB 版本不支持您的系統。請按右上角進入設置並嘗試切換版本。若均無效請聯繫開發者。 若您剛才切換了 ADB 版本，有可能是因為部分系統（特別是華為設備）不支持自動切換功能，請嘗試強制停止工具箱後再試。 "</string>
     <string name="open_source">"開放源代碼許可 "</string>
     <string name="not_change">"ADB 版本保持不變 "</string>
@@ -340,4 +340,21 @@ OPPO Watch 不支援 WiFi 偵錯，所以無法透過 IP:Port 的方式連線，
     <string name="upload_file_successfully">上傳文件成功</string>
     <string name="download_failed_skip">部分文件無法下載，已被系統跳過，請檢查日誌。</string>
     <string name="thanks_list_title">"鳴謝名單 "</string>
+    <string name="thanks_list">特別鳴謝：晨鶴\n\n技術幫助：晨鶴\n贊助：明風の嵐\n設計者：Borealis404\n\n翻譯貢獻：\nEnglish：官方\n中文簡體: 官方\n中文繁體（台灣）：SHXJ\nEspañol: Sergio</string>
+    <string name="downloads">次下載</string>
+    <string name="about_this_app">關於此應用</string>
+    <string name="application_information">應用程序信息</string>
+    <string name="not_support_language">抱歉，應用庫暫不支持您的語言</string>
+    <string name="failed_to_exec">執行失敗！</string>
+    <string name="exec_successfully">執行成功！</string>
+    <string name="activate_permission_dog">激活權限狗</string>
+    <string name="sure_to_edit_text">編輯該文件？</string>
+    <string name="the_developer_app">該開發者的應用</string>
+    <string name="reject">拒絕</string>
+    <string name="failed_to_save">保存失敗！</string>
+    <string name="save_successfully">保存成功！</string>
+    <string name="are_you_sure_to_save">確定保存該文件嗎？</string>
+    <string name="text_editor">文本編輯</string>
+    <string name="recommended_apps">推薦應用</string>
+    <string name="libadb39_temp">請清除數據或在其他切換 ADB 版本</string>
 </resources>

@@ -31,9 +31,7 @@
     <string name="home_logo">Inicio</string>
     <string name="ok">OK</string>
     <string name="resolution">Resolución</string>
-    <string name="dpi" translatable="false">DPI</string>
     <string name="ram_utilization">Uso de RAM</string>
-    <string name="_0" translatable="false">0%</string>
     <string name="application_name">Nombre de la App:</string>
     <string name="application_icon">Icono</string>
     <string name="package_name">Nombre del paquete</string>
@@ -288,7 +286,7 @@
     <string name="adb_not_supported">La versión Bianaria ADB no está disponible en tu sistema. Cámbia de versión en los Ajustes.\nTambien puedes intentar a forzar el cierre de WearOS Toolbox, habiendo cambiado la versión ADB.</string>
     <string name="not_change">Mantener la version actual.</string>
     <string name="ip_mistype">La dirección IP no es válida. Comprueba si hay algún número mal, espacio o punto no escrito.</string>
-    <string name="libadb39_temp" translatable="false">Por favor, borra datos o cambia en la esquina superior derecha, la versión ADB</string>
+    <string name="libadb39_temp">Por favor, borra datos o cambia en la esquina superior derecha, la versión ADB</string>
     <string name="install_command">Elige comando para instalar apk:</string>
     <string name="connect_failed">Fallo al conectar.</string>
     <string name="upload_failed_skip">Fallo en la subida.\nAlgunos archivos han sido saltados por el sistema.</string>
@@ -300,7 +298,7 @@
     <string name="darkmode">Habilitar modo oscuro</string>
     <string name="successful_darkmode">Modo oscuro habilitado.</string>
     <string name="login_empty">Los campos de usuario o contraseña no pueden estar vacios.</string>
-    <string name="changelog">WearOS Toolbox 1.6 estable. Historico de cambios:\n- Mejorada la importación de ADB Binarios\n- Mejoras en UI\n- Arreglados pequeños fallos\n- Soporte para pm install\n- Añadida página de Licencias de Código Abierto\nAyúdanos a traducir WearOS Toolbox a tu idioma. Últimos idomas añadidos fork, pr y español: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS Toolbox 1.7.0 Registro de cambios estable:\n\n-Reducida la página \"Detalles de la aplicación\" de la biblioteca de aplicaciones.\n-Se corrigió la dificultad de deslizarse en la página \"Categoría de aplicación\" de la \"AppStore\"\n-Se agregaron clasificaciones de descarga a la \"AppStore\"\n-Optimizar el color y la experiencia del usuario en \"modo oscuro\"\n-Se solucionó el problema de que la aplicación de carga / descarga \"Administrador de archivos\" juzgaba incorrectamente\n- \"Administrador de archivos\" agregó la función \"Editar texto\" (solo en la versión de donación)\n-Vectorización de todos los iconos\n-Añadir la función de \"Activar Permiso Perro\"\n-Optimización de múltiples detalles\n\nAyúdanos a traducir WearOS Toolbox. Ahora fork y pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="ip_textView_hint">IP del dispositivo (IP:Puerto)</string>
     <string name="begin">¡Comencemos!</string>
     <string name="restore_resolution">Restaurar resolución</string>
@@ -328,4 +326,25 @@
     <string name="please_input_value">Por favor, pon un valor correcto</string>
     <string name="open_source">Licencias</string>
     <string name="upload_floder">Subir una carpeta</string>
+    <string name="darkmode_disable">Desactivar</string>
+    <string name="successful_darkmode_disable">Modo oscuro desactivado.</string>
+    <string name="failed_to_exec">¡No se pudo ejecutar!</string>
+    <string name="exec_successfully">¡Ejecutivo con éxito!</string>
+    <string name="activate_permission_dog">Activar \"\'Permission Dog\"</string>
+    <string name="sure_to_edit_text">¿Editar este archivo?</string>
+    <string name="the_developer_app">La aplicación del desarrollador</string>
+    <string name="reject">Rechazar</string>
+    <string name="failed_to_save">¡Error al guardar!</string>
+    <string name="save_successfully">¡Guarde con éxito!</string>
+    <string name="are_you_sure_to_save">¿Estás seguro de guardar el archivo?</string>
+    <string name="text_editor">Editor de texto</string>
+    <string name="recommended_apps">Aplicaciones recomendadas</string>
+    <string name="not_support_language">Lo sentimos, App Store no admite tu idioma en este momento.</string>
+    <string name="application_information">Información de la aplicación</string>
+    <string name="about_this_app">Acerca de la aplicación</string>
+    <string name="downloads">Descargas</string>
+    <string name="thanks_list_title">Lista de agradecimientos</string>
+    <string name="thanks_list">Agradecimiento especial: ChenHe\n\nAsistencia técnica: ChenHe\nPatrocinador de financiación: 明风の岚\nDiseñador: Borealis404\n\nContribución de traducción:\nEnglish: Official\n中文简体: Official\n中文繁体（台湾）: SHXJ\nEspañol: Sergio</string>
+    <string name="darkmode_info">Reinicie para hacer un esfuerzo. Además, no está disponible en dispositivos Huawei porque provocará errores en la interfaz de usuario.</string>
+    <string name="darkmode_enable">Habilitar</string>
 </resources>

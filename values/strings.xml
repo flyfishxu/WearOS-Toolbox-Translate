@@ -1,5 +1,5 @@
 <resources>
-    <string name="changelog">WearOS Toolbox 1.7.0 Stable changelog:\n\n-Reworked the \"Application Details\" page of the application library\n-Fixed the difficulty of sliding in the \"Application Category\" page of the \"AppStore\"\n-Added download rankings to the \"AppStore\"\n-Optimize the color and user experience in \"dark mode\"\n-Fixed the problem that the \"File Manager\" upload/download application judged incorrectly\n-\"File Manager\" added \"Edit Text\" function (Donation version only)\n-Multiple detail optimization \n\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
+    <string name="changelog">WearOS Toolbox 1.7.0 Stable changelog:\n\n-Reworked the \"Application Details\" page of the application library\n-Fixed the difficulty of sliding in the \"Application Category\" page of the \"AppStore\"\n-Added download rankings to the \"AppStore\"\n-Optimize the color and user experience in \"dark mode\"\n-Fixed the problem that the \"File Manager\" upload/download application judged incorrectly\n-\"File Manager\" added \"Edit Text\" function (Donation version only)\n-Vectorization of all icons\n-Add the function of \"Activate Permission Dog\"\n-Multiple detail optimization \n\nHelp us to translate WearOS Toolbox. Now fork and pr: https://github.com/Flyfish2333/WearOS-Toolbox-Translate</string>
     <string name="app_name">WearOS Toolbox</string>
     <string name="menu_home">Home</string>
     <string name="menu_install_apk">Install</string>
@@ -349,4 +349,8 @@
     <string name="failed_to_save">Failed to save!</string>
     <string name="reject">Reject</string>
     <string name="the_developer_app">The developer\'s application</string>
+    <string name="sure_to_edit_text">Edit this file?</string>
+    <string name="activate_permission_dog">Activate Permission Dog</string>
+    <string name="exec_successfully">Exec successfully!</string>
+    <string name="failed_to_exec">Failed to exec!</string>
 </resources>
