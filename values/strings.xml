@@ -495,9 +495,9 @@
     <string name="report_issues_summary">If you have a bug or an idea, talk with us on GitHub</string>
     <string name="our_friends">Our friends</string>
     <string name="support_our_friends">Support our friends</string>
-    <string name="app_center_switch">Send Diagnostic Infomation</string>
+    <string name="app_center_switch">Send Anonymous Diagnostic Information</string>
     <string name="app_center_on" >Send crash reports and usage stats to us to improve perfermance and features. It won\'t be used to identify you, check it on Know Your Data.</string>
-    <string name="app_center_off" >We won\'t collect diagnostic or usage stats.</string>
+    <string name="app_center_off" >We won\'t collect any diagnostic or usage stats.</string>
     <string name="permission_sdk_list">Know Your Data</string>
-    <string name="permission_sdk_list_summary" >Check out what we collect when Send Diagnostic Infomation is enabled.</string>
+    <string name="permission_sdk_list_summary" >Check out what we collect when Send Diagnostic Information is enabled.</string>
 </resources>
