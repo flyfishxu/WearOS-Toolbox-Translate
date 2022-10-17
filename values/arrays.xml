@@ -1,0 +1,26 @@
+<resources>
+    <string-array name="adbVersion">
+        <item>1.0.37</item>
+        <item>1.0.41</item>
+    </string-array>
+
+    <string-array name="adbFileName">
+        <item>libadb-37.so</item>
+        <item>libadb-41.so</item>
+    </string-array>
+
+    <string-array name="installMode">
+        <item>adb install</item>
+        <item>pm install</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>
