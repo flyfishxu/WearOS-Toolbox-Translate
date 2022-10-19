@@ -10,7 +10,7 @@
     <string name="begin">從連線你的手錶開始</string>
     <string name="connect_success">連線成功</string>
     <string name="nav_header_title">WearOS 工具箱</string>
-    <string name="nav_header_subtitle">專 WearOS 裝置設計的現代且易於使用的工具軟體</string>
+    <string name="nav_header_subtitle">為 WearOS 裝置設計的現代且易於使用的工具軟體</string>
     <string name="empty_address">請輸入裝置位址</string>
     <string name="notice">注意事項</string>
     <string name="menu_deviceInfo">裝置資訊</string>
