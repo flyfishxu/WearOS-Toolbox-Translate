@@ -500,5 +500,5 @@
     <string name="app_center_on" >向我們傳送當機報告和使用統計資料以改善效能並改進功能，這將不會用於辨識您的身分，請在「瞭解您的資料」中檢閱</string>
     <string name="app_center_off" >我們將不會蒐集任何診斷資訊和使用統計資料</string>
     <string name="permission_sdk_list">瞭解您的資料</string>
-    <string name="permission_sdk_list_summary" >查看在啟用「傳送診斷資訊」時我們蒐集了什麼</string>
+    <string name="permission_sdk_list_summary" >我們使用「傳送診斷資訊」蒐集了哪些資料</string>
 </resources>
