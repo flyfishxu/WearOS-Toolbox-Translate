@@ -75,7 +75,7 @@
     <string name="apply_successfully">套用成功</string>
     <string name="restore_successfully">還原成功</string>
     <string name="restore_failed">還原失敗</string>
-    <string name="enter_correct_dpi">失敗‵：無效的 DPI</string>
+    <string name="enter_correct_dpi">失敗：無效的 DPI</string>
     <string name="battery_info">手錶電池</string>
     <string name="charge_status">充電狀態：</string>
     <string name="battery_level">電池電量：</string>
