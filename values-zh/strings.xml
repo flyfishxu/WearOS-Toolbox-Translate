@@ -176,7 +176,7 @@
     <string name="wechat_pay">微信支付</string>
     <string name="new_version_found">发现新版本: %1$s</string>
     <string name="update_message">更新内容：\n%1$s\n\n发布日期：%2$s\n\n要立即下载更新吗？</string>
-    <string name="already_saved_qrcode">已将收款码保存至“/sdcard/Pictures/Wearosbox”目录下，要现在打开微信扫描二维码吗？</string>
+    <string name="already_saved_qrcode">已将微信公众号二维码保存至“/sdcard/Pictures/Wearosbox”目录下，要现在打开微信扫描二维码吗？</string>
     <string name="no_wechat">看起来您还没有安装微信</string>
     <string name="check_update">检查更新</string>
     <string name="no_update_found">当前版本已是最新版本</string>
